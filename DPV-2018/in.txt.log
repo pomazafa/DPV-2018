@@ -1,0 +1,2305 @@
+Шаг : Правило             Входная лента                 Стек                
+0   : S->L~m[FeE~]~       L~tfi(ti,ti)[!ti~i=ivi~ei     S$                  
+0   : SAVESTATE:          1
+0   :                     L~tfi(ti,ti)[!ti~i=ivi~ei     L~m[FeE~]~$         
+
+1   :                     ~tfi(ti,ti)[!ti~i=ivi~ei~     ~m[FeE~]~$          
+2   :                     tfi(ti,ti)[!ti~i=ivi~ei~]     m[FeE~]~$           
+3   : TS_NOK/NS_NORULECHAIN
+3   : RESSTATE            
+3   :                     L~tfi(ti,ti)[!ti~i=ivi~ei     S$                  
+4   : S->L~tfi(P)[FeE~]~S L~tfi(ti,ti)[!ti~i=ivi~ei     S$                  
+4   : SAVESTATE:          1
+4   :                     L~tfi(ti,ti)[!ti~i=ivi~ei     L~tfi(P)[FeE~]~S$   
+5   :                     ~tfi(ti,ti)[!ti~i=ivi~ei~     ~tfi(P)[FeE~]~S$    
+6   :                     tfi(ti,ti)[!ti~i=ivi~ei~]     tfi(P)[FeE~]~S$     
+7   :                     fi(ti,ti)[!ti~i=ivi~ei~]~     fi(P)[FeE~]~S$      
+8   :                     i(ti,ti)[!ti~i=ivi~ei~]~m     i(P)[FeE~]~S$       
+9   :                     (ti,ti)[!ti~i=ivi~ei~]~m[     (P)[FeE~]~S$        
+10  :                     ti,ti)[!ti~i=ivi~ei~]~m[!     P)[FeE~]~S$         
+11  : P->ti               ti,ti)[!ti~i=ivi~ei~]~m[!     P)[FeE~]~S$         
+11  : SAVESTATE:          2
+11  :                     ti,ti)[!ti~i=ivi~ei~]~m[!     ti)[FeE~]~S$        
+12  :                     i,ti)[!ti~i=ivi~ei~]~m[!t     i)[FeE~]~S$         
+13  :                     ,ti)[!ti~i=ivi~ei~]~m[!ti     )[FeE~]~S$          
+14  : TS_NOK/NS_NORULECHAIN
+14  : RESSTATE            
+14  :                     ti,ti)[!ti~i=ivi~ei~]~m[!     P)[FeE~]~S$         
+15  : P->ti,P             ti,ti)[!ti~i=ivi~ei~]~m[!     P)[FeE~]~S$         
+15  : SAVESTATE:          2
+15  :                     ti,ti)[!ti~i=ivi~ei~]~m[!     ti,P)[FeE~]~S$      
+16  :                     i,ti)[!ti~i=ivi~ei~]~m[!t     i,P)[FeE~]~S$       
+17  :                     ,ti)[!ti~i=ivi~ei~]~m[!ti     ,P)[FeE~]~S$        
+18  :                     ti)[!ti~i=ivi~ei~]~m[!ti~     P)[FeE~]~S$         
+19  : P->ti               ti)[!ti~i=ivi~ei~]~m[!ti~     P)[FeE~]~S$         
+19  : SAVESTATE:          3
+19  :                     ti)[!ti~i=ivi~ei~]~m[!ti~     ti)[FeE~]~S$        
+20  :                     i)[!ti~i=ivi~ei~]~m[!ti~!     i)[FeE~]~S$         
+21  :                     )[!ti~i=ivi~ei~]~m[!ti~!t     )[FeE~]~S$          
+22  :                     [!ti~i=ivi~ei~]~m[!ti~!ti     [FeE~]~S$           
+23  :                     !ti~i=ivi~ei~]~m[!ti~!ti~     FeE~]~S$            
+24  : F->!ti~F            !ti~i=ivi~ei~]~m[!ti~!ti~     FeE~]~S$            
+24  : SAVESTATE:          4
+24  :                     !ti~i=ivi~ei~]~m[!ti~!ti~     !ti~FeE~]~S$        
+25  :                     ti~i=ivi~ei~]~m[!ti~!ti~!     ti~FeE~]~S$         
+26  :                     i~i=ivi~ei~]~m[!ti~!ti~!t     i~FeE~]~S$          
+27  :                     ~i=ivi~ei~]~m[!ti~!ti~!ti     ~FeE~]~S$           
+28  :                     i=ivi~ei~]~m[!ti~!ti~!ti~     FeE~]~S$            
+29  : F->i=E~             i=ivi~ei~]~m[!ti~!ti~!ti~     FeE~]~S$            
+29  : SAVESTATE:          5
+29  :                     i=ivi~ei~]~m[!ti~!ti~!ti~     i=E~eE~]~S$         
+30  :                     =ivi~ei~]~m[!ti~!ti~!ti~!     =E~eE~]~S$          
+31  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+32  : E->i                ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+32  : SAVESTATE:          6
+32  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     i~eE~]~S$           
+33  :                     vi~ei~]~m[!ti~!ti~!ti~!ti     ~eE~]~S$            
+34  : TS_NOK/NS_NORULECHAIN
+34  : RESSTATE            
+34  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+35  : E->i(W)             ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+35  : SAVESTATE:          6
+35  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     i(W)~eE~]~S$        
+36  :                     vi~ei~]~m[!ti~!ti~!ti~!ti     (W)~eE~]~S$         
+37  : TS_NOK/NS_NORULECHAIN
+37  : RESSTATE            
+37  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+38  : E->iO               ivi~ei~]~m[!ti~!ti~!ti~!t     E~eE~]~S$           
+38  : SAVESTATE:          6
+38  :                     ivi~ei~]~m[!ti~!ti~!ti~!t     iO~eE~]~S$          
+39  :                     vi~ei~]~m[!ti~!ti~!ti~!ti     O~eE~]~S$           
+40  : O->vE               vi~ei~]~m[!ti~!ti~!ti~!ti     O~eE~]~S$           
+40  : SAVESTATE:          7
+40  :                     vi~ei~]~m[!ti~!ti~!ti~!ti     vE~eE~]~S$          
+41  :                     i~ei~]~m[!ti~!ti~!ti~!ti~     E~eE~]~S$           
+42  : E->i                i~ei~]~m[!ti~!ti~!ti~!ti~     E~eE~]~S$           
+42  : SAVESTATE:          8
+42  :                     i~ei~]~m[!ti~!ti~!ti~!ti~     i~eE~]~S$           
+43  :                     ~ei~]~m[!ti~!ti~!ti~!ti~!     ~eE~]~S$            
+44  :                     ei~]~m[!ti~!ti~!ti~!ti~!t     eE~]~S$             
+45  :                     i~]~m[!ti~!ti~!ti~!ti~!ti     E~]~S$              
+46  : E->i                i~]~m[!ti~!ti~!ti~!ti~!ti     E~]~S$              
+46  : SAVESTATE:          9
+46  :                     i~]~m[!ti~!ti~!ti~!ti~!ti     i~]~S$              
+47  :                     ~]~m[!ti~!ti~!ti~!ti~!ti~     ~]~S$               
+48  :                     ]~m[!ti~!ti~!ti~!ti~!ti~i     ]~S$                
+49  :                     ~m[!ti~!ti~!ti~!ti~!ti~i=     ~S$                 
+50  :                     m[!ti~!ti~!ti~!ti~!ti~i=(     S$                  
+51  : S->m[FeE~]~         m[!ti~!ti~!ti~!ti~!ti~i=(     S$                  
+51  : SAVESTATE:          10
+51  :                     m[!ti~!ti~!ti~!ti~!ti~i=(     m[FeE~]~$           
+52  :                     [!ti~!ti~!ti~!ti~!ti~i=(i     [FeE~]~$            
+53  :                     !ti~!ti~!ti~!ti~!ti~i=(i(     FeE~]~$             
+54  : F->!ti~F            !ti~!ti~!ti~!ti~!ti~i=(i(     FeE~]~$             
+54  : SAVESTATE:          11
+54  :                     !ti~!ti~!ti~!ti~!ti~i=(i(     !ti~FeE~]~$         
+55  :                     ti~!ti~!ti~!ti~!ti~i=(i(l     ti~FeE~]~$          
+56  :                     i~!ti~!ti~!ti~!ti~i=(i(l,     i~FeE~]~$           
+57  :                     ~!ti~!ti~!ti~!ti~i=(i(l,l     ~FeE~]~$            
+58  :                     !ti~!ti~!ti~!ti~i=(i(l,l)     FeE~]~$             
+59  : F->!ti~F            !ti~!ti~!ti~!ti~i=(i(l,l)     FeE~]~$             
+59  : SAVESTATE:          12
+59  :                     !ti~!ti~!ti~!ti~i=(i(l,l)     !ti~FeE~]~$         
+60  :                     ti~!ti~!ti~!ti~i=(i(l,l)v     ti~FeE~]~$          
+61  :                     i~!ti~!ti~!ti~i=(i(l,l)vl     i~FeE~]~$           
+62  :                     ~!ti~!ti~!ti~i=(i(l,l)vlv     ~FeE~]~$            
+63  :                     !ti~!ti~!ti~i=(i(l,l)vlvl     FeE~]~$             
+64  : F->!ti~F            !ti~!ti~!ti~i=(i(l,l)vlvl     FeE~]~$             
+64  : SAVESTATE:          13
+64  :                     !ti~!ti~!ti~i=(i(l,l)vlvl     !ti~FeE~]~$         
+65  :                     ti~!ti~!ti~i=(i(l,l)vlvl)     ti~FeE~]~$          
+66  :                     i~!ti~!ti~i=(i(l,l)vlvl)v     i~FeE~]~$           
+67  :                     ~!ti~!ti~i=(i(l,l)vlvl)vl     ~FeE~]~$            
+68  :                     !ti~!ti~i=(i(l,l)vlvl)vl~     FeE~]~$             
+69  : F->!ti~F            !ti~!ti~i=(i(l,l)vlvl)vl~     FeE~]~$             
+69  : SAVESTATE:          14
+69  :                     !ti~!ti~i=(i(l,l)vlvl)vl~     !ti~FeE~]~$         
+70  :                     ti~!ti~i=(i(l,l)vlvl)vl~i     ti~FeE~]~$          
+71  :                     i~!ti~i=(i(l,l)vlvl)vl~i=     i~FeE~]~$           
+72  :                     ~!ti~i=(i(l,l)vlvl)vl~i=i     ~FeE~]~$            
+73  :                     !ti~i=(i(l,l)vlvl)vl~i=i(     FeE~]~$             
+74  : F->!ti~F            !ti~i=(i(l,l)vlvl)vl~i=i(     FeE~]~$             
+74  : SAVESTATE:          15
+74  :                     !ti~i=(i(l,l)vlvl)vl~i=i(     !ti~FeE~]~$         
+75  :                     ti~i=(i(l,l)vlvl)vl~i=i(l     ti~FeE~]~$          
+76  :                     i~i=(i(l,l)vlvl)vl~i=i(l,     i~FeE~]~$           
+77  :                     ~i=(i(l,l)vlvl)vl~i=i(l,l     ~FeE~]~$            
+78  :                     i=(i(l,l)vlvl)vl~i=i(l,l)     FeE~]~$             
+79  : F->i=E~             i=(i(l,l)vlvl)vl~i=i(l,l)     FeE~]~$             
+79  : SAVESTATE:          16
+79  :                     i=(i(l,l)vlvl)vl~i=i(l,l)     i=E~eE~]~$          
+80  :                     =(i(l,l)vlvl)vl~i=i(l,l)~     =E~eE~]~$           
+81  :                     (i(l,l)vlvl)vl~i=i(l,l)~o     E~eE~]~$            
+82  : E->(E)              (i(l,l)vlvl)vl~i=i(l,l)~o     E~eE~]~$            
+82  : SAVESTATE:          17
+82  :                     (i(l,l)vlvl)vl~i=i(l,l)~o     (E)~eE~]~$          
+83  :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+84  : E->i                i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+84  : SAVESTATE:          18
+84  :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i)~eE~]~$           
+85  :                     (l,l)vlvl)vl~i=i(l,l)~ol~     )~eE~]~$            
+86  : TS_NOK/NS_NORULECHAIN
+86  : RESSTATE            
+86  :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+87  : E->i(W)             i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+87  : SAVESTATE:          18
+87  :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W))~eE~]~$        
+88  :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W))~eE~]~$         
+89  :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~eE~]~$          
+90  : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W))~eE~]~$          
+90  : SAVESTATE:          19
+90  :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l))~eE~]~$          
+91  :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ))~eE~]~$           
+92  : TS_NOK/NS_NORULECHAIN
+92  : RESSTATE            
+92  :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~eE~]~$          
+93  : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W))~eE~]~$          
+93  : SAVESTATE:          19
+93  :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W))~eE~]~$        
+94  :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W))~eE~]~$         
+95  :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~eE~]~$          
+96  : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W))~eE~]~$          
+96  : SAVESTATE:          20
+96  :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l))~eE~]~$          
+97  :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ))~eE~]~$           
+98  :                     vlvl)vl~i=i(l,l)~ol~oi~i=     )~eE~]~$            
+99  : TS_NOK/NS_NORULECHAIN
+99  : RESSTATE            
+99  :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~eE~]~$          
+100 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W))~eE~]~$          
+100 : SAVESTATE:          20
+100 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W))~eE~]~$        
+101 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W))~eE~]~$         
+102 : TS_NOK/NS_NORULECHAIN
+102 : RESSTATE            
+102 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~eE~]~$          
+103 : TNS_NORULECHAIN/NS_NORULE
+103 : RESSTATE            
+103 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~eE~]~$          
+104 : TNS_NORULECHAIN/NS_NORULE
+104 : RESSTATE            
+104 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+105 : E->iO               i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+105 : SAVESTATE:          18
+105 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     iO)~eE~]~$          
+106 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     O)~eE~]~$           
+107 : TNS_NORULECHAIN/NS_NORULE
+107 : RESSTATE            
+107 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+108 : E->i(W)O            i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+108 : SAVESTATE:          18
+108 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W)O)~eE~]~$       
+109 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W)O)~eE~]~$        
+110 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~eE~]~$         
+111 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~eE~]~$         
+111 : SAVESTATE:          19
+111 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l)O)~eE~]~$         
+112 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     )O)~eE~]~$          
+113 : TS_NOK/NS_NORULECHAIN
+113 : RESSTATE            
+113 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~eE~]~$         
+114 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~eE~]~$         
+114 : SAVESTATE:          19
+114 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W)O)~eE~]~$       
+115 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W)O)~eE~]~$        
+116 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~eE~]~$         
+117 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~eE~]~$         
+117 : SAVESTATE:          20
+117 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l)O)~eE~]~$         
+118 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     )O)~eE~]~$          
+119 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~eE~]~$           
+120 : O->vE               vlvl)vl~i=i(l,l)~ol~oi~i=     O)~eE~]~$           
+120 : SAVESTATE:          21
+120 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vE)~eE~]~$          
+121 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~eE~]~$           
+122 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     E)~eE~]~$           
+122 : SAVESTATE:          22
+122 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     l)~eE~]~$           
+123 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     )~eE~]~$            
+124 : TS_NOK/NS_NORULECHAIN
+124 : RESSTATE            
+124 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~eE~]~$           
+125 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     E)~eE~]~$           
+125 : SAVESTATE:          22
+125 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)~eE~]~$          
+126 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+127 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+127 : SAVESTATE:          23
+127 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)~eE~]~$          
+128 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+129 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+129 : SAVESTATE:          24
+129 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)~eE~]~$           
+130 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )~eE~]~$            
+131 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     ~eE~]~$             
+132 : TS_NOK/NS_NORULECHAIN
+132 : RESSTATE            
+132 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+133 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+133 : SAVESTATE:          24
+133 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~eE~]~$          
+134 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~eE~]~$           
+135 : TNS_NORULECHAIN/NS_NORULE
+135 : RESSTATE            
+135 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+136 : TNS_NORULECHAIN/NS_NORULE
+136 : RESSTATE            
+136 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+137 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+137 : SAVESTATE:          23
+137 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~eE~]~$         
+138 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+139 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+139 : SAVESTATE:          24
+139 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~eE~]~$          
+140 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~eE~]~$           
+141 : TNS_NORULECHAIN/NS_NORULE
+141 : RESSTATE            
+141 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+142 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+142 : SAVESTATE:          24
+142 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~eE~]~$         
+143 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~eE~]~$          
+144 : TNS_NORULECHAIN/NS_NORULE
+144 : RESSTATE            
+144 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+145 : TNS_NORULECHAIN/NS_NORULE
+145 : RESSTATE            
+145 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+146 : TNS_NORULECHAIN/NS_NORULE
+146 : RESSTATE            
+146 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~eE~]~$           
+147 : TNS_NORULECHAIN/NS_NORULE
+147 : RESSTATE            
+147 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~eE~]~$           
+148 : O->vEO              vlvl)vl~i=i(l,l)~ol~oi~i=     O)~eE~]~$           
+148 : SAVESTATE:          21
+148 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vEO)~eE~]~$         
+149 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~eE~]~$          
+150 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~eE~]~$          
+150 : SAVESTATE:          22
+150 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)~eE~]~$          
+151 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+152 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+152 : SAVESTATE:          23
+152 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)~eE~]~$          
+153 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+154 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+154 : SAVESTATE:          24
+154 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)~eE~]~$           
+155 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )~eE~]~$            
+156 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     ~eE~]~$             
+157 : TS_NOK/NS_NORULECHAIN
+157 : RESSTATE            
+157 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+158 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+158 : SAVESTATE:          24
+158 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~eE~]~$          
+159 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~eE~]~$           
+160 : TNS_NORULECHAIN/NS_NORULE
+160 : RESSTATE            
+160 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~eE~]~$           
+161 : TNS_NORULECHAIN/NS_NORULE
+161 : RESSTATE            
+161 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+162 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+162 : SAVESTATE:          23
+162 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~eE~]~$         
+163 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+164 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+164 : SAVESTATE:          24
+164 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~eE~]~$          
+165 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~eE~]~$           
+166 : TNS_NORULECHAIN/NS_NORULE
+166 : RESSTATE            
+166 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+167 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+167 : SAVESTATE:          24
+167 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~eE~]~$         
+168 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~eE~]~$          
+169 : TNS_NORULECHAIN/NS_NORULE
+169 : RESSTATE            
+169 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+170 : TNS_NORULECHAIN/NS_NORULE
+170 : RESSTATE            
+170 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~eE~]~$           
+171 : TNS_NORULECHAIN/NS_NORULE
+171 : RESSTATE            
+171 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~eE~]~$          
+172 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~eE~]~$          
+172 : SAVESTATE:          22
+172 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lOO)~eE~]~$         
+173 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~eE~]~$          
+174 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~eE~]~$          
+174 : SAVESTATE:          23
+174 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~eE~]~$         
+175 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+176 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+176 : SAVESTATE:          24
+176 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~eE~]~$          
+177 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~eE~]~$           
+178 : TNS_NORULECHAIN/NS_NORULE
+178 : RESSTATE            
+178 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+179 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+179 : SAVESTATE:          24
+179 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~eE~]~$         
+180 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~eE~]~$          
+181 : TNS_NORULECHAIN/NS_NORULE
+181 : RESSTATE            
+181 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~eE~]~$          
+182 : TNS_NORULECHAIN/NS_NORULE
+182 : RESSTATE            
+182 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~eE~]~$          
+183 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~eE~]~$          
+183 : SAVESTATE:          23
+183 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEOO)~eE~]~$        
+184 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~eE~]~$         
+185 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~eE~]~$         
+185 : SAVESTATE:          24
+185 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~eE~]~$         
+186 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~eE~]~$          
+187 : TNS_NORULECHAIN/NS_NORULE
+187 : RESSTATE            
+187 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~eE~]~$         
+188 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~eE~]~$         
+188 : SAVESTATE:          24
+188 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOOO)~eE~]~$        
+189 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OOO)~eE~]~$         
+190 : TNS_NORULECHAIN/NS_NORULE
+190 : RESSTATE            
+190 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~eE~]~$         
+191 : TNS_NORULECHAIN/NS_NORULE
+191 : RESSTATE            
+191 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~eE~]~$          
+192 : TNS_NORULECHAIN/NS_NORULE
+192 : RESSTATE            
+192 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~eE~]~$          
+193 : TNS_NORULECHAIN/NS_NORULE
+193 : RESSTATE            
+193 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~eE~]~$           
+194 : TNS_NORULECHAIN/NS_NORULE
+194 : RESSTATE            
+194 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~eE~]~$         
+195 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~eE~]~$         
+195 : SAVESTATE:          20
+195 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W)O)~eE~]~$       
+196 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W)O)~eE~]~$        
+197 : TS_NOK/NS_NORULECHAIN
+197 : RESSTATE            
+197 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~eE~]~$         
+198 : TNS_NORULECHAIN/NS_NORULE
+198 : RESSTATE            
+198 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~eE~]~$         
+199 : TNS_NORULECHAIN/NS_NORULE
+199 : RESSTATE            
+199 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~eE~]~$           
+200 : TNS_NORULECHAIN/NS_NORULE
+200 : RESSTATE            
+200 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     E~eE~]~$            
+201 : E->(E)O             (i(l,l)vlvl)vl~i=i(l,l)~o     E~eE~]~$            
+201 : SAVESTATE:          17
+201 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     (E)O~eE~]~$         
+202 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+203 : E->i                i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+203 : SAVESTATE:          18
+203 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i)O~eE~]~$          
+204 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     )O~eE~]~$           
+205 : TS_NOK/NS_NORULECHAIN
+205 : RESSTATE            
+205 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+206 : E->i(W)             i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+206 : SAVESTATE:          18
+206 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W))O~eE~]~$       
+207 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W))O~eE~]~$        
+208 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~eE~]~$         
+209 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~eE~]~$         
+209 : SAVESTATE:          19
+209 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l))O~eE~]~$         
+210 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ))O~eE~]~$          
+211 : TS_NOK/NS_NORULECHAIN
+211 : RESSTATE            
+211 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~eE~]~$         
+212 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~eE~]~$         
+212 : SAVESTATE:          19
+212 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W))O~eE~]~$       
+213 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W))O~eE~]~$        
+214 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~eE~]~$         
+215 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~eE~]~$         
+215 : SAVESTATE:          20
+215 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l))O~eE~]~$         
+216 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ))O~eE~]~$          
+217 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     )O~eE~]~$           
+218 : TS_NOK/NS_NORULECHAIN
+218 : RESSTATE            
+218 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~eE~]~$         
+219 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~eE~]~$         
+219 : SAVESTATE:          20
+219 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W))O~eE~]~$       
+220 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W))O~eE~]~$        
+221 : TS_NOK/NS_NORULECHAIN
+221 : RESSTATE            
+221 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~eE~]~$         
+222 : TNS_NORULECHAIN/NS_NORULE
+222 : RESSTATE            
+222 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~eE~]~$         
+223 : TNS_NORULECHAIN/NS_NORULE
+223 : RESSTATE            
+223 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+224 : E->iO               i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+224 : SAVESTATE:          18
+224 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     iO)O~eE~]~$         
+225 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     O)O~eE~]~$          
+226 : TNS_NORULECHAIN/NS_NORULE
+226 : RESSTATE            
+226 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+227 : E->i(W)O            i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+227 : SAVESTATE:          18
+227 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W)O)O~eE~]~$      
+228 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W)O)O~eE~]~$       
+229 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~eE~]~$        
+230 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~eE~]~$        
+230 : SAVESTATE:          19
+230 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l)O)O~eE~]~$        
+231 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     )O)O~eE~]~$         
+232 : TS_NOK/NS_NORULECHAIN
+232 : RESSTATE            
+232 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~eE~]~$        
+233 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~eE~]~$        
+233 : SAVESTATE:          19
+233 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W)O)O~eE~]~$      
+234 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W)O)O~eE~]~$       
+235 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~eE~]~$        
+236 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~eE~]~$        
+236 : SAVESTATE:          20
+236 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l)O)O~eE~]~$        
+237 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     )O)O~eE~]~$         
+238 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~eE~]~$          
+239 : O->vE               vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~eE~]~$          
+239 : SAVESTATE:          21
+239 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vE)O~eE~]~$         
+240 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~eE~]~$          
+241 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~eE~]~$          
+241 : SAVESTATE:          22
+241 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     l)O~eE~]~$          
+242 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     )O~eE~]~$           
+243 : TS_NOK/NS_NORULECHAIN
+243 : RESSTATE            
+243 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~eE~]~$          
+244 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~eE~]~$          
+244 : SAVESTATE:          22
+244 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)O~eE~]~$         
+245 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+246 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+246 : SAVESTATE:          23
+246 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)O~eE~]~$         
+247 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+248 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+248 : SAVESTATE:          24
+248 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)O~eE~]~$          
+249 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )O~eE~]~$           
+250 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+251 : O->vE               vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+251 : SAVESTATE:          25
+251 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     vE~eE~]~$           
+252 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+253 : E->l                l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+253 : SAVESTATE:          26
+253 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     l~eE~]~$            
+254 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     ~eE~]~$             
+255 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     eE~]~$              
+256 : TS_NOK/NS_NORULECHAIN
+256 : RESSTATE            
+256 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+257 : E->lO               l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+257 : SAVESTATE:          26
+257 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lO~eE~]~$           
+258 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     O~eE~]~$            
+259 : TNS_NORULECHAIN/NS_NORULE
+259 : RESSTATE            
+259 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+260 : TNS_NORULECHAIN/NS_NORULE
+260 : RESSTATE            
+260 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+261 : O->vEO              vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+261 : SAVESTATE:          25
+261 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     vEO~eE~]~$          
+262 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+263 : E->l                l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+263 : SAVESTATE:          26
+263 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lO~eE~]~$           
+264 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     O~eE~]~$            
+265 : TNS_NORULECHAIN/NS_NORULE
+265 : RESSTATE            
+265 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+266 : E->lO               l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+266 : SAVESTATE:          26
+266 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lOO~eE~]~$          
+267 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     OO~eE~]~$           
+268 : TNS_NORULECHAIN/NS_NORULE
+268 : RESSTATE            
+268 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+269 : TNS_NORULECHAIN/NS_NORULE
+269 : RESSTATE            
+269 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+270 : TNS_NORULECHAIN/NS_NORULE
+270 : RESSTATE            
+270 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+271 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+271 : SAVESTATE:          24
+271 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)O~eE~]~$         
+272 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)O~eE~]~$          
+273 : TNS_NORULECHAIN/NS_NORULE
+273 : RESSTATE            
+273 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+274 : TNS_NORULECHAIN/NS_NORULE
+274 : RESSTATE            
+274 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+275 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+275 : SAVESTATE:          23
+275 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)O~eE~]~$        
+276 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+277 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+277 : SAVESTATE:          24
+277 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)O~eE~]~$         
+278 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)O~eE~]~$          
+279 : TNS_NORULECHAIN/NS_NORULE
+279 : RESSTATE            
+279 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+280 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+280 : SAVESTATE:          24
+280 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)O~eE~]~$        
+281 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)O~eE~]~$         
+282 : TNS_NORULECHAIN/NS_NORULE
+282 : RESSTATE            
+282 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+283 : TNS_NORULECHAIN/NS_NORULE
+283 : RESSTATE            
+283 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+284 : TNS_NORULECHAIN/NS_NORULE
+284 : RESSTATE            
+284 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~eE~]~$          
+285 : TNS_NORULECHAIN/NS_NORULE
+285 : RESSTATE            
+285 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~eE~]~$          
+286 : O->vEO              vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~eE~]~$          
+286 : SAVESTATE:          21
+286 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vEO)O~eE~]~$        
+287 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)O~eE~]~$         
+288 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     EO)O~eE~]~$         
+288 : SAVESTATE:          22
+288 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)O~eE~]~$         
+289 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+290 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+290 : SAVESTATE:          23
+290 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)O~eE~]~$         
+291 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+292 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+292 : SAVESTATE:          24
+292 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)O~eE~]~$          
+293 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )O~eE~]~$           
+294 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+295 : O->vE               vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+295 : SAVESTATE:          25
+295 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     vE~eE~]~$           
+296 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+297 : E->l                l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+297 : SAVESTATE:          26
+297 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     l~eE~]~$            
+298 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     ~eE~]~$             
+299 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     eE~]~$              
+300 : TS_NOK/NS_NORULECHAIN
+300 : RESSTATE            
+300 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+301 : E->lO               l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+301 : SAVESTATE:          26
+301 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lO~eE~]~$           
+302 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     O~eE~]~$            
+303 : TNS_NORULECHAIN/NS_NORULE
+303 : RESSTATE            
+303 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~eE~]~$            
+304 : TNS_NORULECHAIN/NS_NORULE
+304 : RESSTATE            
+304 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+305 : O->vEO              vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+305 : SAVESTATE:          25
+305 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     vEO~eE~]~$          
+306 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+307 : E->l                l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+307 : SAVESTATE:          26
+307 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lO~eE~]~$           
+308 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     O~eE~]~$            
+309 : TNS_NORULECHAIN/NS_NORULE
+309 : RESSTATE            
+309 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+310 : E->lO               l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+310 : SAVESTATE:          26
+310 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     lOO~eE~]~$          
+311 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     OO~eE~]~$           
+312 : TNS_NORULECHAIN/NS_NORULE
+312 : RESSTATE            
+312 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     EO~eE~]~$           
+313 : TNS_NORULECHAIN/NS_NORULE
+313 : RESSTATE            
+313 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~eE~]~$            
+314 : TNS_NORULECHAIN/NS_NORULE
+314 : RESSTATE            
+314 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+315 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+315 : SAVESTATE:          24
+315 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)O~eE~]~$         
+316 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)O~eE~]~$          
+317 : TNS_NORULECHAIN/NS_NORULE
+317 : RESSTATE            
+317 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~eE~]~$          
+318 : TNS_NORULECHAIN/NS_NORULE
+318 : RESSTATE            
+318 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+319 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+319 : SAVESTATE:          23
+319 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)O~eE~]~$        
+320 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+321 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+321 : SAVESTATE:          24
+321 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)O~eE~]~$         
+322 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)O~eE~]~$          
+323 : TNS_NORULECHAIN/NS_NORULE
+323 : RESSTATE            
+323 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+324 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+324 : SAVESTATE:          24
+324 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)O~eE~]~$        
+325 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)O~eE~]~$         
+326 : TNS_NORULECHAIN/NS_NORULE
+326 : RESSTATE            
+326 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+327 : TNS_NORULECHAIN/NS_NORULE
+327 : RESSTATE            
+327 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~eE~]~$          
+328 : TNS_NORULECHAIN/NS_NORULE
+328 : RESSTATE            
+328 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)O~eE~]~$         
+329 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     EO)O~eE~]~$         
+329 : SAVESTATE:          22
+329 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lOO)O~eE~]~$        
+330 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)O~eE~]~$         
+331 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     OO)O~eE~]~$         
+331 : SAVESTATE:          23
+331 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)O~eE~]~$        
+332 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+333 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+333 : SAVESTATE:          24
+333 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)O~eE~]~$         
+334 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)O~eE~]~$          
+335 : TNS_NORULECHAIN/NS_NORULE
+335 : RESSTATE            
+335 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+336 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+336 : SAVESTATE:          24
+336 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)O~eE~]~$        
+337 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)O~eE~]~$         
+338 : TNS_NORULECHAIN/NS_NORULE
+338 : RESSTATE            
+338 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)O~eE~]~$         
+339 : TNS_NORULECHAIN/NS_NORULE
+339 : RESSTATE            
+339 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)O~eE~]~$         
+340 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     OO)O~eE~]~$         
+340 : SAVESTATE:          23
+340 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEOO)O~eE~]~$       
+341 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)O~eE~]~$        
+342 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)O~eE~]~$        
+342 : SAVESTATE:          24
+342 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)O~eE~]~$        
+343 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)O~eE~]~$         
+344 : TNS_NORULECHAIN/NS_NORULE
+344 : RESSTATE            
+344 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)O~eE~]~$        
+345 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)O~eE~]~$        
+345 : SAVESTATE:          24
+345 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOOO)O~eE~]~$       
+346 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OOO)O~eE~]~$        
+347 : TNS_NORULECHAIN/NS_NORULE
+347 : RESSTATE            
+347 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)O~eE~]~$        
+348 : TNS_NORULECHAIN/NS_NORULE
+348 : RESSTATE            
+348 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)O~eE~]~$         
+349 : TNS_NORULECHAIN/NS_NORULE
+349 : RESSTATE            
+349 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)O~eE~]~$         
+350 : TNS_NORULECHAIN/NS_NORULE
+350 : RESSTATE            
+350 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~eE~]~$          
+351 : TNS_NORULECHAIN/NS_NORULE
+351 : RESSTATE            
+351 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~eE~]~$        
+352 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~eE~]~$        
+352 : SAVESTATE:          20
+352 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W)O)O~eE~]~$      
+353 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W)O)O~eE~]~$       
+354 : TS_NOK/NS_NORULECHAIN
+354 : RESSTATE            
+354 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~eE~]~$        
+355 : TNS_NORULECHAIN/NS_NORULE
+355 : RESSTATE            
+355 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~eE~]~$        
+356 : TNS_NORULECHAIN/NS_NORULE
+356 : RESSTATE            
+356 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~eE~]~$          
+357 : TNS_NORULECHAIN/NS_NORULE
+357 : RESSTATE            
+357 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     E~eE~]~$            
+358 : TNS_NORULECHAIN/NS_NORULE
+358 : RESSTATE            
+358 :                     i=(i(l,l)vlvl)vl~i=i(l,l)     FeE~]~$             
+359 : F->i=E~F            i=(i(l,l)vlvl)vl~i=i(l,l)     FeE~]~$             
+359 : SAVESTATE:          16
+359 :                     i=(i(l,l)vlvl)vl~i=i(l,l)     i=E~FeE~]~$         
+360 :                     =(i(l,l)vlvl)vl~i=i(l,l)~     =E~FeE~]~$          
+361 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     E~FeE~]~$           
+362 : E->(E)              (i(l,l)vlvl)vl~i=i(l,l)~o     E~FeE~]~$           
+362 : SAVESTATE:          17
+362 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     (E)~FeE~]~$         
+363 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+364 : E->i                i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+364 : SAVESTATE:          18
+364 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i)~FeE~]~$          
+365 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     )~FeE~]~$           
+366 : TS_NOK/NS_NORULECHAIN
+366 : RESSTATE            
+366 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+367 : E->i(W)             i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+367 : SAVESTATE:          18
+367 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W))~FeE~]~$       
+368 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W))~FeE~]~$        
+369 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~FeE~]~$         
+370 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W))~FeE~]~$         
+370 : SAVESTATE:          19
+370 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l))~FeE~]~$         
+371 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ))~FeE~]~$          
+372 : TS_NOK/NS_NORULECHAIN
+372 : RESSTATE            
+372 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~FeE~]~$         
+373 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W))~FeE~]~$         
+373 : SAVESTATE:          19
+373 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W))~FeE~]~$       
+374 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W))~FeE~]~$        
+375 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~FeE~]~$         
+376 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W))~FeE~]~$         
+376 : SAVESTATE:          20
+376 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l))~FeE~]~$         
+377 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ))~FeE~]~$          
+378 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     )~FeE~]~$           
+379 : TS_NOK/NS_NORULECHAIN
+379 : RESSTATE            
+379 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~FeE~]~$         
+380 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W))~FeE~]~$         
+380 : SAVESTATE:          20
+380 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W))~FeE~]~$       
+381 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W))~FeE~]~$        
+382 : TS_NOK/NS_NORULECHAIN
+382 : RESSTATE            
+382 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))~FeE~]~$         
+383 : TNS_NORULECHAIN/NS_NORULE
+383 : RESSTATE            
+383 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))~FeE~]~$         
+384 : TNS_NORULECHAIN/NS_NORULE
+384 : RESSTATE            
+384 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+385 : E->iO               i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+385 : SAVESTATE:          18
+385 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     iO)~FeE~]~$         
+386 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     O)~FeE~]~$          
+387 : TNS_NORULECHAIN/NS_NORULE
+387 : RESSTATE            
+387 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+388 : E->i(W)O            i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+388 : SAVESTATE:          18
+388 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W)O)~FeE~]~$      
+389 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W)O)~FeE~]~$       
+390 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~FeE~]~$        
+391 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~FeE~]~$        
+391 : SAVESTATE:          19
+391 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l)O)~FeE~]~$        
+392 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     )O)~FeE~]~$         
+393 : TS_NOK/NS_NORULECHAIN
+393 : RESSTATE            
+393 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~FeE~]~$        
+394 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~FeE~]~$        
+394 : SAVESTATE:          19
+394 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W)O)~FeE~]~$      
+395 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W)O)~FeE~]~$       
+396 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~FeE~]~$        
+397 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~FeE~]~$        
+397 : SAVESTATE:          20
+397 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l)O)~FeE~]~$        
+398 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     )O)~FeE~]~$         
+399 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~FeE~]~$          
+400 : O->vE               vlvl)vl~i=i(l,l)~ol~oi~i=     O)~FeE~]~$          
+400 : SAVESTATE:          21
+400 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vE)~FeE~]~$         
+401 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~FeE~]~$          
+402 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     E)~FeE~]~$          
+402 : SAVESTATE:          22
+402 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     l)~FeE~]~$          
+403 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     )~FeE~]~$           
+404 : TS_NOK/NS_NORULECHAIN
+404 : RESSTATE            
+404 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~FeE~]~$          
+405 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     E)~FeE~]~$          
+405 : SAVESTATE:          22
+405 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)~FeE~]~$         
+406 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+407 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+407 : SAVESTATE:          23
+407 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)~FeE~]~$         
+408 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+409 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+409 : SAVESTATE:          24
+409 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)~FeE~]~$          
+410 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )~FeE~]~$           
+411 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     ~FeE~]~$            
+412 : TS_NOK/NS_NORULECHAIN
+412 : RESSTATE            
+412 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+413 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+413 : SAVESTATE:          24
+413 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~FeE~]~$         
+414 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~FeE~]~$          
+415 : TNS_NORULECHAIN/NS_NORULE
+415 : RESSTATE            
+415 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+416 : TNS_NORULECHAIN/NS_NORULE
+416 : RESSTATE            
+416 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+417 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+417 : SAVESTATE:          23
+417 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~FeE~]~$        
+418 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+419 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+419 : SAVESTATE:          24
+419 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~FeE~]~$         
+420 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~FeE~]~$          
+421 : TNS_NORULECHAIN/NS_NORULE
+421 : RESSTATE            
+421 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+422 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+422 : SAVESTATE:          24
+422 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~FeE~]~$        
+423 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~FeE~]~$         
+424 : TNS_NORULECHAIN/NS_NORULE
+424 : RESSTATE            
+424 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+425 : TNS_NORULECHAIN/NS_NORULE
+425 : RESSTATE            
+425 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+426 : TNS_NORULECHAIN/NS_NORULE
+426 : RESSTATE            
+426 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)~FeE~]~$          
+427 : TNS_NORULECHAIN/NS_NORULE
+427 : RESSTATE            
+427 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~FeE~]~$          
+428 : O->vEO              vlvl)vl~i=i(l,l)~ol~oi~i=     O)~FeE~]~$          
+428 : SAVESTATE:          21
+428 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vEO)~FeE~]~$        
+429 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~FeE~]~$         
+430 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~FeE~]~$         
+430 : SAVESTATE:          22
+430 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)~FeE~]~$         
+431 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+432 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+432 : SAVESTATE:          23
+432 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)~FeE~]~$         
+433 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+434 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+434 : SAVESTATE:          24
+434 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)~FeE~]~$          
+435 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )~FeE~]~$           
+436 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     ~FeE~]~$            
+437 : TS_NOK/NS_NORULECHAIN
+437 : RESSTATE            
+437 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+438 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+438 : SAVESTATE:          24
+438 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~FeE~]~$         
+439 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~FeE~]~$          
+440 : TNS_NORULECHAIN/NS_NORULE
+440 : RESSTATE            
+440 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)~FeE~]~$          
+441 : TNS_NORULECHAIN/NS_NORULE
+441 : RESSTATE            
+441 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+442 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+442 : SAVESTATE:          23
+442 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~FeE~]~$        
+443 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+444 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+444 : SAVESTATE:          24
+444 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~FeE~]~$         
+445 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~FeE~]~$          
+446 : TNS_NORULECHAIN/NS_NORULE
+446 : RESSTATE            
+446 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+447 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+447 : SAVESTATE:          24
+447 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~FeE~]~$        
+448 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~FeE~]~$         
+449 : TNS_NORULECHAIN/NS_NORULE
+449 : RESSTATE            
+449 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+450 : TNS_NORULECHAIN/NS_NORULE
+450 : RESSTATE            
+450 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)~FeE~]~$          
+451 : TNS_NORULECHAIN/NS_NORULE
+451 : RESSTATE            
+451 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~FeE~]~$         
+452 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~FeE~]~$         
+452 : SAVESTATE:          22
+452 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lOO)~FeE~]~$        
+453 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~FeE~]~$         
+454 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~FeE~]~$         
+454 : SAVESTATE:          23
+454 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEO)~FeE~]~$        
+455 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+456 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+456 : SAVESTATE:          24
+456 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lO)~FeE~]~$         
+457 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     O)~FeE~]~$          
+458 : TNS_NORULECHAIN/NS_NORULE
+458 : RESSTATE            
+458 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+459 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+459 : SAVESTATE:          24
+459 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~FeE~]~$        
+460 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~FeE~]~$         
+461 : TNS_NORULECHAIN/NS_NORULE
+461 : RESSTATE            
+461 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EO)~FeE~]~$         
+462 : TNS_NORULECHAIN/NS_NORULE
+462 : RESSTATE            
+462 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~FeE~]~$         
+463 : O->vEO              vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~FeE~]~$         
+463 : SAVESTATE:          23
+463 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vEOO)~FeE~]~$       
+464 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~FeE~]~$        
+465 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~FeE~]~$        
+465 : SAVESTATE:          24
+465 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOO)~FeE~]~$        
+466 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OO)~FeE~]~$         
+467 : TNS_NORULECHAIN/NS_NORULE
+467 : RESSTATE            
+467 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~FeE~]~$        
+468 : E->lO               l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~FeE~]~$        
+468 : SAVESTATE:          24
+468 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     lOOO)~FeE~]~$       
+469 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     OOO)~FeE~]~$        
+470 : TNS_NORULECHAIN/NS_NORULE
+470 : RESSTATE            
+470 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     EOO)~FeE~]~$        
+471 : TNS_NORULECHAIN/NS_NORULE
+471 : RESSTATE            
+471 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     OO)~FeE~]~$         
+472 : TNS_NORULECHAIN/NS_NORULE
+472 : RESSTATE            
+472 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     EO)~FeE~]~$         
+473 : TNS_NORULECHAIN/NS_NORULE
+473 : RESSTATE            
+473 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)~FeE~]~$          
+474 : TNS_NORULECHAIN/NS_NORULE
+474 : RESSTATE            
+474 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~FeE~]~$        
+475 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~FeE~]~$        
+475 : SAVESTATE:          20
+475 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W)O)~FeE~]~$      
+476 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W)O)~FeE~]~$       
+477 : TS_NOK/NS_NORULECHAIN
+477 : RESSTATE            
+477 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)~FeE~]~$        
+478 : TNS_NORULECHAIN/NS_NORULE
+478 : RESSTATE            
+478 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)~FeE~]~$        
+479 : TNS_NORULECHAIN/NS_NORULE
+479 : RESSTATE            
+479 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)~FeE~]~$          
+480 : TNS_NORULECHAIN/NS_NORULE
+480 : RESSTATE            
+480 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     E~FeE~]~$           
+481 : E->(E)O             (i(l,l)vlvl)vl~i=i(l,l)~o     E~FeE~]~$           
+481 : SAVESTATE:          17
+481 :                     (i(l,l)vlvl)vl~i=i(l,l)~o     (E)O~FeE~]~$        
+482 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+483 : E->i                i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+483 : SAVESTATE:          18
+483 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i)O~FeE~]~$         
+484 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     )O~FeE~]~$          
+485 : TS_NOK/NS_NORULECHAIN
+485 : RESSTATE            
+485 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+486 : E->i(W)             i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+486 : SAVESTATE:          18
+486 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W))O~FeE~]~$      
+487 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W))O~FeE~]~$       
+488 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~FeE~]~$        
+489 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~FeE~]~$        
+489 : SAVESTATE:          19
+489 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l))O~FeE~]~$        
+490 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ))O~FeE~]~$         
+491 : TS_NOK/NS_NORULECHAIN
+491 : RESSTATE            
+491 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~FeE~]~$        
+492 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~FeE~]~$        
+492 : SAVESTATE:          19
+492 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W))O~FeE~]~$      
+493 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W))O~FeE~]~$       
+494 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~FeE~]~$        
+495 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~FeE~]~$        
+495 : SAVESTATE:          20
+495 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l))O~FeE~]~$        
+496 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ))O~FeE~]~$         
+497 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     )O~FeE~]~$          
+498 : TS_NOK/NS_NORULECHAIN
+498 : RESSTATE            
+498 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~FeE~]~$        
+499 : W->l,W              l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~FeE~]~$        
+499 : SAVESTATE:          20
+499 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l,W))O~FeE~]~$      
+500 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     ,W))O~FeE~]~$       
+501 : TS_NOK/NS_NORULECHAIN
+501 : RESSTATE            
+501 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W))O~FeE~]~$        
+502 : TNS_NORULECHAIN/NS_NORULE
+502 : RESSTATE            
+502 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W))O~FeE~]~$        
+503 : TNS_NORULECHAIN/NS_NORULE
+503 : RESSTATE            
+503 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+504 : E->iO               i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+504 : SAVESTATE:          18
+504 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     iO)O~FeE~]~$        
+505 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     O)O~FeE~]~$         
+506 : TNS_NORULECHAIN/NS_NORULE
+506 : RESSTATE            
+506 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+507 : E->i(W)O            i(l,l)vlvl)vl~i=i(l,l)~ol     E)O~FeE~]~$         
+507 : SAVESTATE:          18
+507 :                     i(l,l)vlvl)vl~i=i(l,l)~ol     i(W)O)O~FeE~]~$     
+508 :                     (l,l)vlvl)vl~i=i(l,l)~ol~     (W)O)O~FeE~]~$      
+509 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~FeE~]~$       
+510 : W->l                l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~FeE~]~$       
+510 : SAVESTATE:          19
+510 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l)O)O~FeE~]~$       
+511 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     )O)O~FeE~]~$        
+512 : TS_NOK/NS_NORULECHAIN
+512 : RESSTATE            
+512 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~FeE~]~$       
+513 : W->l,W              l,l)vlvl)vl~i=i(l,l)~ol~o     W)O)O~FeE~]~$       
+513 : SAVESTATE:          19
+513 :                     l,l)vlvl)vl~i=i(l,l)~ol~o     l,W)O)O~FeE~]~$     
+514 :                     ,l)vlvl)vl~i=i(l,l)~ol~oi     ,W)O)O~FeE~]~$      
+515 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~FeE~]~$       
+516 : W->l                l)vlvl)vl~i=i(l,l)~ol~oi~     W)O)O~FeE~]~$       
+516 : SAVESTATE:          20
+516 :                     l)vlvl)vl~i=i(l,l)~ol~oi~     l)O)O~FeE~]~$       
+517 :                     )vlvl)vl~i=i(l,l)~ol~oi~i     )O)O~FeE~]~$        
+518 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~FeE~]~$         
+519 : O->vE               vlvl)vl~i=i(l,l)~ol~oi~i=     O)O~FeE~]~$         
+519 : SAVESTATE:          21
+519 :                     vlvl)vl~i=i(l,l)~ol~oi~i=     vE)O~FeE~]~$        
+520 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~FeE~]~$         
+521 : E->l                lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~FeE~]~$         
+521 : SAVESTATE:          22
+521 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     l)O~FeE~]~$         
+522 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     )O~FeE~]~$          
+523 : TS_NOK/NS_NORULECHAIN
+523 : RESSTATE            
+523 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~FeE~]~$         
+524 : E->lO               lvl)vl~i=i(l,l)~ol~oi~i=l     E)O~FeE~]~$         
+524 : SAVESTATE:          22
+524 :                     lvl)vl~i=i(l,l)~ol~oi~i=l     lO)O~FeE~]~$        
+525 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~FeE~]~$         
+526 : O->vE               vl)vl~i=i(l,l)~ol~oi~i=l~     O)O~FeE~]~$         
+526 : SAVESTATE:          23
+526 :                     vl)vl~i=i(l,l)~ol~oi~i=l~     vE)O~FeE~]~$        
+527 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~FeE~]~$         
+528 : E->l                l)vl~i=i(l,l)~ol~oi~i=l~i     E)O~FeE~]~$         
+528 : SAVESTATE:          24
+528 :                     l)vl~i=i(l,l)~ol~oi~i=l~i     l)O~FeE~]~$         
+529 :                     )vl~i=i(l,l)~ol~oi~i=l~i=     )O~FeE~]~$          
+530 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     O~FeE~]~$           
+531 : O->vE               vl~i=i(l,l)~ol~oi~i=l~i=l     O~FeE~]~$           
+531 : SAVESTATE:          25
+531 :                     vl~i=i(l,l)~ol~oi~i=l~i=l     vE~FeE~]~$          
+532 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     E~FeE~]~$           
+533 : E->l                l~i=i(l,l)~ol~oi~i=l~i=l~     E~FeE~]~$           
+533 : SAVESTATE:          26
+533 :                     l~i=i(l,l)~ol~oi~i=l~i=l~     l~FeE~]~$           
+534 :                     ~i=i(l,l)~ol~oi~i=l~i=l~!     ~FeE~]~$            
+535 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     FeE~]~$             
+536 : F->i=E~             i=i(l,l)~ol~oi~i=l~i=l~!t     FeE~]~$             
+536 : SAVESTATE:          27
+536 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     i=E~eE~]~$          
+537 :                     =i(l,l)~ol~oi~i=l~i=l~!ti     =E~eE~]~$           
+538 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+539 : E->i                i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+539 : SAVESTATE:          28
+539 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     i~eE~]~$            
+540 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     ~eE~]~$             
+541 : TS_NOK/NS_NORULECHAIN
+541 : RESSTATE            
+541 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+542 : E->i(W)             i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+542 : SAVESTATE:          28
+542 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     i(W)~eE~]~$         
+543 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     (W)~eE~]~$          
+544 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)~eE~]~$           
+545 : W->l                l,l)~ol~oi~i=l~i=l~!ti~!t     W)~eE~]~$           
+545 : SAVESTATE:          29
+545 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l)~eE~]~$           
+546 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     )~eE~]~$            
+547 : TS_NOK/NS_NORULECHAIN
+547 : RESSTATE            
+547 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)~eE~]~$           
+548 : W->l,W              l,l)~ol~oi~i=l~i=l~!ti~!t     W)~eE~]~$           
+548 : SAVESTATE:          29
+548 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l,W)~eE~]~$         
+549 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     ,W)~eE~]~$          
+550 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)~eE~]~$           
+551 : W->l                l)~ol~oi~i=l~i=l~!ti~!tfi     W)~eE~]~$           
+551 : SAVESTATE:          30
+551 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     l)~eE~]~$           
+552 :                     )~ol~oi~i=l~i=l~!ti~!tfi(     )~eE~]~$            
+553 :                     ~ol~oi~i=l~i=l~!ti~!tfi(t     ~eE~]~$             
+554 :                     ol~oi~i=l~i=l~!ti~!tfi(ti     eE~]~$              
+555 : TS_NOK/NS_NORULECHAIN
+555 : RESSTATE            
+555 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)~eE~]~$           
+556 : W->l,W              l)~ol~oi~i=l~i=l~!ti~!tfi     W)~eE~]~$           
+556 : SAVESTATE:          30
+556 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     l,W)~eE~]~$         
+557 :                     )~ol~oi~i=l~i=l~!ti~!tfi(     ,W)~eE~]~$          
+558 : TS_NOK/NS_NORULECHAIN
+558 : RESSTATE            
+558 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)~eE~]~$           
+559 : TNS_NORULECHAIN/NS_NORULE
+559 : RESSTATE            
+559 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)~eE~]~$           
+560 : TNS_NORULECHAIN/NS_NORULE
+560 : RESSTATE            
+560 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+561 : E->iO               i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+561 : SAVESTATE:          28
+561 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     iO~eE~]~$           
+562 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     O~eE~]~$            
+563 : TNS_NORULECHAIN/NS_NORULE
+563 : RESSTATE            
+563 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+564 : E->i(W)O            i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+564 : SAVESTATE:          28
+564 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     i(W)O~eE~]~$        
+565 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     (W)O~eE~]~$         
+566 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)O~eE~]~$          
+567 : W->l                l,l)~ol~oi~i=l~i=l~!ti~!t     W)O~eE~]~$          
+567 : SAVESTATE:          29
+567 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l)O~eE~]~$          
+568 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     )O~eE~]~$           
+569 : TS_NOK/NS_NORULECHAIN
+569 : RESSTATE            
+569 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)O~eE~]~$          
+570 : W->l,W              l,l)~ol~oi~i=l~i=l~!ti~!t     W)O~eE~]~$          
+570 : SAVESTATE:          29
+570 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l,W)O~eE~]~$        
+571 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     ,W)O~eE~]~$         
+572 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)O~eE~]~$          
+573 : W->l                l)~ol~oi~i=l~i=l~!ti~!tfi     W)O~eE~]~$          
+573 : SAVESTATE:          30
+573 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     l)O~eE~]~$          
+574 :                     )~ol~oi~i=l~i=l~!ti~!tfi(     )O~eE~]~$           
+575 :                     ~ol~oi~i=l~i=l~!ti~!tfi(t     O~eE~]~$            
+576 : TNS_NORULECHAIN/NS_NORULE
+576 : RESSTATE            
+576 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)O~eE~]~$          
+577 : W->l,W              l)~ol~oi~i=l~i=l~!ti~!tfi     W)O~eE~]~$          
+577 : SAVESTATE:          30
+577 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     l,W)O~eE~]~$        
+578 :                     )~ol~oi~i=l~i=l~!ti~!tfi(     ,W)O~eE~]~$         
+579 : TS_NOK/NS_NORULECHAIN
+579 : RESSTATE            
+579 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)O~eE~]~$          
+580 : TNS_NORULECHAIN/NS_NORULE
+580 : RESSTATE            
+580 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)O~eE~]~$          
+581 : TNS_NORULECHAIN/NS_NORULE
+581 : RESSTATE            
+581 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~eE~]~$            
+582 : TNS_NORULECHAIN/NS_NORULE
+582 : RESSTATE            
+582 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     FeE~]~$             
+583 : F->i=E~F            i=i(l,l)~ol~oi~i=l~i=l~!t     FeE~]~$             
+583 : SAVESTATE:          27
+583 :                     i=i(l,l)~ol~oi~i=l~i=l~!t     i=E~FeE~]~$         
+584 :                     =i(l,l)~ol~oi~i=l~i=l~!ti     =E~FeE~]~$          
+585 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~FeE~]~$           
+586 : E->i                i(l,l)~ol~oi~i=l~i=l~!ti~     E~FeE~]~$           
+586 : SAVESTATE:          28
+586 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     i~FeE~]~$           
+587 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     ~FeE~]~$            
+588 : TS_NOK/NS_NORULECHAIN
+588 : RESSTATE            
+588 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     E~FeE~]~$           
+589 : E->i(W)             i(l,l)~ol~oi~i=l~i=l~!ti~     E~FeE~]~$           
+589 : SAVESTATE:          28
+589 :                     i(l,l)~ol~oi~i=l~i=l~!ti~     i(W)~FeE~]~$        
+590 :                     (l,l)~ol~oi~i=l~i=l~!ti~!     (W)~FeE~]~$         
+591 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)~FeE~]~$          
+592 : W->l                l,l)~ol~oi~i=l~i=l~!ti~!t     W)~FeE~]~$          
+592 : SAVESTATE:          29
+592 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l)~FeE~]~$          
+593 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     )~FeE~]~$           
+594 : TS_NOK/NS_NORULECHAIN
+594 : RESSTATE            
+594 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     W)~FeE~]~$          
+595 : W->l,W              l,l)~ol~oi~i=l~i=l~!ti~!t     W)~FeE~]~$          
+595 : SAVESTATE:          29
+595 :                     l,l)~ol~oi~i=l~i=l~!ti~!t     l,W)~FeE~]~$        
+596 :                     ,l)~ol~oi~i=l~i=l~!ti~!tf     ,W)~FeE~]~$         
+597 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     W)~FeE~]~$          
+598 : W->l                l)~ol~oi~i=l~i=l~!ti~!tfi     W)~FeE~]~$          
+598 : SAVESTATE:          30
+598 :                     l)~ol~oi~i=l~i=l~!ti~!tfi     l)~FeE~]~$          
+599 :                     )~ol~oi~i=l~i=l~!ti~!tfi(     )~FeE~]~$           
+600 :                     ~ol~oi~i=l~i=l~!ti~!tfi(t     ~FeE~]~$            
+601 :                     ol~oi~i=l~i=l~!ti~!tfi(ti     FeE~]~$             
+602 : F->oi~F             ol~oi~i=l~i=l~!ti~!tfi(ti     FeE~]~$             
+602 : SAVESTATE:          31
+602 :                     ol~oi~i=l~i=l~!ti~!tfi(ti     oi~FeE~]~$          
+603 :                     l~oi~i=l~i=l~!ti~!tfi(ti,     i~FeE~]~$           
+604 : TS_NOK/NS_NORULECHAIN
+604 : RESSTATE            
+604 :                     ol~oi~i=l~i=l~!ti~!tfi(ti     FeE~]~$             
+605 : F->ol~F             ol~oi~i=l~i=l~!ti~!tfi(ti     FeE~]~$             
+605 : SAVESTATE:          31
+605 :                     ol~oi~i=l~i=l~!ti~!tfi(ti     ol~FeE~]~$          
+606 :                     l~oi~i=l~i=l~!ti~!tfi(ti,     l~FeE~]~$           
+607 :                     ~oi~i=l~i=l~!ti~!tfi(ti,t     ~FeE~]~$            
+608 :                     oi~i=l~i=l~!ti~!tfi(ti,ti     FeE~]~$             
+609 : F->oi~F             oi~i=l~i=l~!ti~!tfi(ti,ti     FeE~]~$             
+609 : SAVESTATE:          32
+609 :                     oi~i=l~i=l~!ti~!tfi(ti,ti     oi~FeE~]~$          
+610 :                     i~i=l~i=l~!ti~!tfi(ti,ti)     i~FeE~]~$           
+611 :                     ~i=l~i=l~!ti~!tfi(ti,ti)~     ~FeE~]~$            
+612 :                     i=l~i=l~!ti~!tfi(ti,ti)~i     FeE~]~$             
+613 : F->i=E~             i=l~i=l~!ti~!tfi(ti,ti)~i     FeE~]~$             
+613 : SAVESTATE:          33
+613 :                     i=l~i=l~!ti~!tfi(ti,ti)~i     i=E~eE~]~$          
+614 :                     =l~i=l~!ti~!tfi(ti,ti)~i=     =E~eE~]~$           
+615 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     E~eE~]~$            
+616 : E->l                l~i=l~!ti~!tfi(ti,ti)~i=i     E~eE~]~$            
+616 : SAVESTATE:          34
+616 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     l~eE~]~$            
+617 :                     ~i=l~!ti~!tfi(ti,ti)~i=i(     ~eE~]~$             
+618 :                     i=l~!ti~!tfi(ti,ti)~i=i(i     eE~]~$              
+619 : TS_NOK/NS_NORULECHAIN
+619 : RESSTATE            
+619 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     E~eE~]~$            
+620 : E->lO               l~i=l~!ti~!tfi(ti,ti)~i=i     E~eE~]~$            
+620 : SAVESTATE:          34
+620 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     lO~eE~]~$           
+621 :                     ~i=l~!ti~!tfi(ti,ti)~i=i(     O~eE~]~$            
+622 : TNS_NORULECHAIN/NS_NORULE
+622 : RESSTATE            
+622 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     E~eE~]~$            
+623 : TNS_NORULECHAIN/NS_NORULE
+623 : RESSTATE            
+623 :                     i=l~i=l~!ti~!tfi(ti,ti)~i     FeE~]~$             
+624 : F->i=E~F            i=l~i=l~!ti~!tfi(ti,ti)~i     FeE~]~$             
+624 : SAVESTATE:          33
+624 :                     i=l~i=l~!ti~!tfi(ti,ti)~i     i=E~FeE~]~$         
+625 :                     =l~i=l~!ti~!tfi(ti,ti)~i=     =E~FeE~]~$          
+626 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     E~FeE~]~$           
+627 : E->l                l~i=l~!ti~!tfi(ti,ti)~i=i     E~FeE~]~$           
+627 : SAVESTATE:          34
+627 :                     l~i=l~!ti~!tfi(ti,ti)~i=i     l~FeE~]~$           
+628 :                     ~i=l~!ti~!tfi(ti,ti)~i=i(     ~FeE~]~$            
+629 :                     i=l~!ti~!tfi(ti,ti)~i=i(i     FeE~]~$             
+630 : F->i=E~             i=l~!ti~!tfi(ti,ti)~i=i(i     FeE~]~$             
+630 : SAVESTATE:          35
+630 :                     i=l~!ti~!tfi(ti,ti)~i=i(i     i=E~eE~]~$          
+631 :                     =l~!ti~!tfi(ti,ti)~i=i(i,     =E~eE~]~$           
+632 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+633 : E->l                l~!ti~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+633 : SAVESTATE:          36
+633 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     l~eE~]~$            
+634 :                     ~!ti~!tfi(ti,ti)~i=i(i,i)     ~eE~]~$             
+635 :                     !ti~!tfi(ti,ti)~i=i(i,i)~     eE~]~$              
+636 : TS_NOK/NS_NORULECHAIN
+636 : RESSTATE            
+636 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+637 : E->lO               l~!ti~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+637 : SAVESTATE:          36
+637 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     lO~eE~]~$           
+638 :                     ~!ti~!tfi(ti,ti)~i=i(i,i)     O~eE~]~$            
+639 : TNS_NORULECHAIN/NS_NORULE
+639 : RESSTATE            
+639 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+640 : TNS_NORULECHAIN/NS_NORULE
+640 : RESSTATE            
+640 :                     i=l~!ti~!tfi(ti,ti)~i=i(i     FeE~]~$             
+641 : F->i=E~F            i=l~!ti~!tfi(ti,ti)~i=i(i     FeE~]~$             
+641 : SAVESTATE:          35
+641 :                     i=l~!ti~!tfi(ti,ti)~i=i(i     i=E~FeE~]~$         
+642 :                     =l~!ti~!tfi(ti,ti)~i=i(i,     =E~FeE~]~$          
+643 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     E~FeE~]~$           
+644 : E->l                l~!ti~!tfi(ti,ti)~i=i(i,i     E~FeE~]~$           
+644 : SAVESTATE:          36
+644 :                     l~!ti~!tfi(ti,ti)~i=i(i,i     l~FeE~]~$           
+645 :                     ~!ti~!tfi(ti,ti)~i=i(i,i)     ~FeE~]~$            
+646 :                     !ti~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+647 : F->!ti~F            !ti~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+647 : SAVESTATE:          37
+647 :                     !ti~!tfi(ti,ti)~i=i(i,i)~     !ti~FeE~]~$         
+648 :                     ti~!tfi(ti,ti)~i=i(i,i)~o     ti~FeE~]~$          
+649 :                     i~!tfi(ti,ti)~i=i(i,i)~oi     i~FeE~]~$           
+650 :                     ~!tfi(ti,ti)~i=i(i,i)~oi~     ~FeE~]~$            
+651 :                     !tfi(ti,ti)~i=i(i,i)~oi~i     FeE~]~$             
+652 : F->!ti~F            !tfi(ti,ti)~i=i(i,i)~oi~i     FeE~]~$             
+652 : SAVESTATE:          38
+652 :                     !tfi(ti,ti)~i=i(i,i)~oi~i     !ti~FeE~]~$         
+653 :                     tfi(ti,ti)~i=i(i,i)~oi~i=     ti~FeE~]~$          
+654 :                     fi(ti,ti)~i=i(i,i)~oi~i=l     i~FeE~]~$           
+655 : TS_NOK/NS_NORULECHAIN
+655 : RESSTATE            
+655 :                     !tfi(ti,ti)~i=i(i,i)~oi~i     FeE~]~$             
+656 : F->!tfi(P)~F        !tfi(ti,ti)~i=i(i,i)~oi~i     FeE~]~$             
+656 : SAVESTATE:          38
+656 :                     !tfi(ti,ti)~i=i(i,i)~oi~i     !tfi(P)~FeE~]~$     
+657 :                     tfi(ti,ti)~i=i(i,i)~oi~i=     tfi(P)~FeE~]~$      
+658 :                     fi(ti,ti)~i=i(i,i)~oi~i=l     fi(P)~FeE~]~$       
+659 :                     i(ti,ti)~i=i(i,i)~oi~i=l~     i(P)~FeE~]~$        
+660 :                     (ti,ti)~i=i(i,i)~oi~i=l~o     (P)~FeE~]~$         
+661 :                     ti,ti)~i=i(i,i)~oi~i=l~oi     P)~FeE~]~$          
+662 : P->ti               ti,ti)~i=i(i,i)~oi~i=l~oi     P)~FeE~]~$          
+662 : SAVESTATE:          39
+662 :                     ti,ti)~i=i(i,i)~oi~i=l~oi     ti)~FeE~]~$         
+663 :                     i,ti)~i=i(i,i)~oi~i=l~oi~     i)~FeE~]~$          
+664 :                     ,ti)~i=i(i,i)~oi~i=l~oi~i     )~FeE~]~$           
+665 : TS_NOK/NS_NORULECHAIN
+665 : RESSTATE            
+665 :                     ti,ti)~i=i(i,i)~oi~i=l~oi     P)~FeE~]~$          
+666 : P->ti,P             ti,ti)~i=i(i,i)~oi~i=l~oi     P)~FeE~]~$          
+666 : SAVESTATE:          39
+666 :                     ti,ti)~i=i(i,i)~oi~i=l~oi     ti,P)~FeE~]~$       
+667 :                     i,ti)~i=i(i,i)~oi~i=l~oi~     i,P)~FeE~]~$        
+668 :                     ,ti)~i=i(i,i)~oi~i=l~oi~i     ,P)~FeE~]~$         
+669 :                     ti)~i=i(i,i)~oi~i=l~oi~i=     P)~FeE~]~$          
+670 : P->ti               ti)~i=i(i,i)~oi~i=l~oi~i=     P)~FeE~]~$          
+670 : SAVESTATE:          40
+670 :                     ti)~i=i(i,i)~oi~i=l~oi~i=     ti)~FeE~]~$         
+671 :                     i)~i=i(i,i)~oi~i=l~oi~i=l     i)~FeE~]~$          
+672 :                     )~i=i(i,i)~oi~i=l~oi~i=l~     )~FeE~]~$           
+673 :                     ~i=i(i,i)~oi~i=l~oi~i=l~i     ~FeE~]~$            
+674 :                     i=i(i,i)~oi~i=l~oi~i=l~i=     FeE~]~$             
+675 : F->i=E~             i=i(i,i)~oi~i=l~oi~i=l~i=     FeE~]~$             
+675 : SAVESTATE:          41
+675 :                     i=i(i,i)~oi~i=l~oi~i=l~i=     i=E~eE~]~$          
+676 :                     =i(i,i)~oi~i=l~oi~i=l~i=l     =E~eE~]~$           
+677 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+678 : E->i                i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+678 : SAVESTATE:          42
+678 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     i~eE~]~$            
+679 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     ~eE~]~$             
+680 : TS_NOK/NS_NORULECHAIN
+680 : RESSTATE            
+680 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+681 : E->i(W)             i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+681 : SAVESTATE:          42
+681 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     i(W)~eE~]~$         
+682 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     (W)~eE~]~$          
+683 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)~eE~]~$           
+684 : W->i                i,i)~oi~i=l~oi~i=l~i=l~!t     W)~eE~]~$           
+684 : SAVESTATE:          43
+684 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i)~eE~]~$           
+685 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     )~eE~]~$            
+686 : TS_NOK/NS_NORULECHAIN
+686 : RESSTATE            
+686 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)~eE~]~$           
+687 : W->i,W              i,i)~oi~i=l~oi~i=l~i=l~!t     W)~eE~]~$           
+687 : SAVESTATE:          43
+687 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i,W)~eE~]~$         
+688 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     ,W)~eE~]~$          
+689 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)~eE~]~$           
+690 : W->i                i)~oi~i=l~oi~i=l~i=l~!tfi     W)~eE~]~$           
+690 : SAVESTATE:          44
+690 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     i)~eE~]~$           
+691 :                     )~oi~i=l~oi~i=l~i=l~!tfi(     )~eE~]~$            
+692 :                     ~oi~i=l~oi~i=l~i=l~!tfi(t     ~eE~]~$             
+693 :                     oi~i=l~oi~i=l~i=l~!tfi(ti     eE~]~$              
+694 : TS_NOK/NS_NORULECHAIN
+694 : RESSTATE            
+694 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)~eE~]~$           
+695 : W->i,W              i)~oi~i=l~oi~i=l~i=l~!tfi     W)~eE~]~$           
+695 : SAVESTATE:          44
+695 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     i,W)~eE~]~$         
+696 :                     )~oi~i=l~oi~i=l~i=l~!tfi(     ,W)~eE~]~$          
+697 : TS_NOK/NS_NORULECHAIN
+697 : RESSTATE            
+697 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)~eE~]~$           
+698 : TNS_NORULECHAIN/NS_NORULE
+698 : RESSTATE            
+698 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)~eE~]~$           
+699 : TNS_NORULECHAIN/NS_NORULE
+699 : RESSTATE            
+699 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+700 : E->iO               i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+700 : SAVESTATE:          42
+700 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     iO~eE~]~$           
+701 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     O~eE~]~$            
+702 : TNS_NORULECHAIN/NS_NORULE
+702 : RESSTATE            
+702 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+703 : E->i(W)O            i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+703 : SAVESTATE:          42
+703 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     i(W)O~eE~]~$        
+704 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     (W)O~eE~]~$         
+705 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)O~eE~]~$          
+706 : W->i                i,i)~oi~i=l~oi~i=l~i=l~!t     W)O~eE~]~$          
+706 : SAVESTATE:          43
+706 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i)O~eE~]~$          
+707 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     )O~eE~]~$           
+708 : TS_NOK/NS_NORULECHAIN
+708 : RESSTATE            
+708 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)O~eE~]~$          
+709 : W->i,W              i,i)~oi~i=l~oi~i=l~i=l~!t     W)O~eE~]~$          
+709 : SAVESTATE:          43
+709 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i,W)O~eE~]~$        
+710 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     ,W)O~eE~]~$         
+711 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)O~eE~]~$          
+712 : W->i                i)~oi~i=l~oi~i=l~i=l~!tfi     W)O~eE~]~$          
+712 : SAVESTATE:          44
+712 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     i)O~eE~]~$          
+713 :                     )~oi~i=l~oi~i=l~i=l~!tfi(     )O~eE~]~$           
+714 :                     ~oi~i=l~oi~i=l~i=l~!tfi(t     O~eE~]~$            
+715 : TNS_NORULECHAIN/NS_NORULE
+715 : RESSTATE            
+715 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)O~eE~]~$          
+716 : W->i,W              i)~oi~i=l~oi~i=l~i=l~!tfi     W)O~eE~]~$          
+716 : SAVESTATE:          44
+716 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     i,W)O~eE~]~$        
+717 :                     )~oi~i=l~oi~i=l~i=l~!tfi(     ,W)O~eE~]~$         
+718 : TS_NOK/NS_NORULECHAIN
+718 : RESSTATE            
+718 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)O~eE~]~$          
+719 : TNS_NORULECHAIN/NS_NORULE
+719 : RESSTATE            
+719 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)O~eE~]~$          
+720 : TNS_NORULECHAIN/NS_NORULE
+720 : RESSTATE            
+720 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~eE~]~$            
+721 : TNS_NORULECHAIN/NS_NORULE
+721 : RESSTATE            
+721 :                     i=i(i,i)~oi~i=l~oi~i=l~i=     FeE~]~$             
+722 : F->i=E~F            i=i(i,i)~oi~i=l~oi~i=l~i=     FeE~]~$             
+722 : SAVESTATE:          41
+722 :                     i=i(i,i)~oi~i=l~oi~i=l~i=     i=E~FeE~]~$         
+723 :                     =i(i,i)~oi~i=l~oi~i=l~i=l     =E~FeE~]~$          
+724 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~FeE~]~$           
+725 : E->i                i(i,i)~oi~i=l~oi~i=l~i=l~     E~FeE~]~$           
+725 : SAVESTATE:          42
+725 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     i~FeE~]~$           
+726 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     ~FeE~]~$            
+727 : TS_NOK/NS_NORULECHAIN
+727 : RESSTATE            
+727 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     E~FeE~]~$           
+728 : E->i(W)             i(i,i)~oi~i=l~oi~i=l~i=l~     E~FeE~]~$           
+728 : SAVESTATE:          42
+728 :                     i(i,i)~oi~i=l~oi~i=l~i=l~     i(W)~FeE~]~$        
+729 :                     (i,i)~oi~i=l~oi~i=l~i=l~!     (W)~FeE~]~$         
+730 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)~FeE~]~$          
+731 : W->i                i,i)~oi~i=l~oi~i=l~i=l~!t     W)~FeE~]~$          
+731 : SAVESTATE:          43
+731 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i)~FeE~]~$          
+732 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     )~FeE~]~$           
+733 : TS_NOK/NS_NORULECHAIN
+733 : RESSTATE            
+733 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     W)~FeE~]~$          
+734 : W->i,W              i,i)~oi~i=l~oi~i=l~i=l~!t     W)~FeE~]~$          
+734 : SAVESTATE:          43
+734 :                     i,i)~oi~i=l~oi~i=l~i=l~!t     i,W)~FeE~]~$        
+735 :                     ,i)~oi~i=l~oi~i=l~i=l~!tf     ,W)~FeE~]~$         
+736 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     W)~FeE~]~$          
+737 : W->i                i)~oi~i=l~oi~i=l~i=l~!tfi     W)~FeE~]~$          
+737 : SAVESTATE:          44
+737 :                     i)~oi~i=l~oi~i=l~i=l~!tfi     i)~FeE~]~$          
+738 :                     )~oi~i=l~oi~i=l~i=l~!tfi(     )~FeE~]~$           
+739 :                     ~oi~i=l~oi~i=l~i=l~!tfi(t     ~FeE~]~$            
+740 :                     oi~i=l~oi~i=l~i=l~!tfi(ti     FeE~]~$             
+741 : F->oi~F             oi~i=l~oi~i=l~i=l~!tfi(ti     FeE~]~$             
+741 : SAVESTATE:          45
+741 :                     oi~i=l~oi~i=l~i=l~!tfi(ti     oi~FeE~]~$          
+742 :                     i~i=l~oi~i=l~i=l~!tfi(ti,     i~FeE~]~$           
+743 :                     ~i=l~oi~i=l~i=l~!tfi(ti,t     ~FeE~]~$            
+744 :                     i=l~oi~i=l~i=l~!tfi(ti,ti     FeE~]~$             
+745 : F->i=E~             i=l~oi~i=l~i=l~!tfi(ti,ti     FeE~]~$             
+745 : SAVESTATE:          46
+745 :                     i=l~oi~i=l~i=l~!tfi(ti,ti     i=E~eE~]~$          
+746 :                     =l~oi~i=l~i=l~!tfi(ti,ti)     =E~eE~]~$           
+747 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     E~eE~]~$            
+748 : E->l                l~oi~i=l~i=l~!tfi(ti,ti)~     E~eE~]~$            
+748 : SAVESTATE:          47
+748 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     l~eE~]~$            
+749 :                     ~oi~i=l~i=l~!tfi(ti,ti)~i     ~eE~]~$             
+750 :                     oi~i=l~i=l~!tfi(ti,ti)~i=     eE~]~$              
+751 : TS_NOK/NS_NORULECHAIN
+751 : RESSTATE            
+751 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     E~eE~]~$            
+752 : E->lO               l~oi~i=l~i=l~!tfi(ti,ti)~     E~eE~]~$            
+752 : SAVESTATE:          47
+752 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     lO~eE~]~$           
+753 :                     ~oi~i=l~i=l~!tfi(ti,ti)~i     O~eE~]~$            
+754 : TNS_NORULECHAIN/NS_NORULE
+754 : RESSTATE            
+754 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     E~eE~]~$            
+755 : TNS_NORULECHAIN/NS_NORULE
+755 : RESSTATE            
+755 :                     i=l~oi~i=l~i=l~!tfi(ti,ti     FeE~]~$             
+756 : F->i=E~F            i=l~oi~i=l~i=l~!tfi(ti,ti     FeE~]~$             
+756 : SAVESTATE:          46
+756 :                     i=l~oi~i=l~i=l~!tfi(ti,ti     i=E~FeE~]~$         
+757 :                     =l~oi~i=l~i=l~!tfi(ti,ti)     =E~FeE~]~$          
+758 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     E~FeE~]~$           
+759 : E->l                l~oi~i=l~i=l~!tfi(ti,ti)~     E~FeE~]~$           
+759 : SAVESTATE:          47
+759 :                     l~oi~i=l~i=l~!tfi(ti,ti)~     l~FeE~]~$           
+760 :                     ~oi~i=l~i=l~!tfi(ti,ti)~i     ~FeE~]~$            
+761 :                     oi~i=l~i=l~!tfi(ti,ti)~i=     FeE~]~$             
+762 : F->oi~F             oi~i=l~i=l~!tfi(ti,ti)~i=     FeE~]~$             
+762 : SAVESTATE:          48
+762 :                     oi~i=l~i=l~!tfi(ti,ti)~i=     oi~FeE~]~$          
+763 :                     i~i=l~i=l~!tfi(ti,ti)~i=i     i~FeE~]~$           
+764 :                     ~i=l~i=l~!tfi(ti,ti)~i=i(     ~FeE~]~$            
+765 :                     i=l~i=l~!tfi(ti,ti)~i=i(i     FeE~]~$             
+766 : F->i=E~             i=l~i=l~!tfi(ti,ti)~i=i(i     FeE~]~$             
+766 : SAVESTATE:          49
+766 :                     i=l~i=l~!tfi(ti,ti)~i=i(i     i=E~eE~]~$          
+767 :                     =l~i=l~!tfi(ti,ti)~i=i(i,     =E~eE~]~$           
+768 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+769 : E->l                l~i=l~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+769 : SAVESTATE:          50
+769 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     l~eE~]~$            
+770 :                     ~i=l~!tfi(ti,ti)~i=i(i,i)     ~eE~]~$             
+771 :                     i=l~!tfi(ti,ti)~i=i(i,i)~     eE~]~$              
+772 : TS_NOK/NS_NORULECHAIN
+772 : RESSTATE            
+772 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+773 : E->lO               l~i=l~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+773 : SAVESTATE:          50
+773 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     lO~eE~]~$           
+774 :                     ~i=l~!tfi(ti,ti)~i=i(i,i)     O~eE~]~$            
+775 : TNS_NORULECHAIN/NS_NORULE
+775 : RESSTATE            
+775 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     E~eE~]~$            
+776 : TNS_NORULECHAIN/NS_NORULE
+776 : RESSTATE            
+776 :                     i=l~i=l~!tfi(ti,ti)~i=i(i     FeE~]~$             
+777 : F->i=E~F            i=l~i=l~!tfi(ti,ti)~i=i(i     FeE~]~$             
+777 : SAVESTATE:          49
+777 :                     i=l~i=l~!tfi(ti,ti)~i=i(i     i=E~FeE~]~$         
+778 :                     =l~i=l~!tfi(ti,ti)~i=i(i,     =E~FeE~]~$          
+779 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     E~FeE~]~$           
+780 : E->l                l~i=l~!tfi(ti,ti)~i=i(i,i     E~FeE~]~$           
+780 : SAVESTATE:          50
+780 :                     l~i=l~!tfi(ti,ti)~i=i(i,i     l~FeE~]~$           
+781 :                     ~i=l~!tfi(ti,ti)~i=i(i,i)     ~FeE~]~$            
+782 :                     i=l~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+783 : F->i=E~             i=l~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+783 : SAVESTATE:          51
+783 :                     i=l~!tfi(ti,ti)~i=i(i,i)~     i=E~eE~]~$          
+784 :                     =l~!tfi(ti,ti)~i=i(i,i)~o     =E~eE~]~$           
+785 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     E~eE~]~$            
+786 : E->l                l~!tfi(ti,ti)~i=i(i,i)~oi     E~eE~]~$            
+786 : SAVESTATE:          52
+786 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     l~eE~]~$            
+787 :                     ~!tfi(ti,ti)~i=i(i,i)~oi~     ~eE~]~$             
+788 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     eE~]~$              
+789 : TS_NOK/NS_NORULECHAIN
+789 : RESSTATE            
+789 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     E~eE~]~$            
+790 : E->lO               l~!tfi(ti,ti)~i=i(i,i)~oi     E~eE~]~$            
+790 : SAVESTATE:          52
+790 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     lO~eE~]~$           
+791 :                     ~!tfi(ti,ti)~i=i(i,i)~oi~     O~eE~]~$            
+792 : TNS_NORULECHAIN/NS_NORULE
+792 : RESSTATE            
+792 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     E~eE~]~$            
+793 : TNS_NORULECHAIN/NS_NORULE
+793 : RESSTATE            
+793 :                     i=l~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+794 : F->i=E~F            i=l~!tfi(ti,ti)~i=i(i,i)~     FeE~]~$             
+794 : SAVESTATE:          51
+794 :                     i=l~!tfi(ti,ti)~i=i(i,i)~     i=E~FeE~]~$         
+795 :                     =l~!tfi(ti,ti)~i=i(i,i)~o     =E~FeE~]~$          
+796 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     E~FeE~]~$           
+797 : E->l                l~!tfi(ti,ti)~i=i(i,i)~oi     E~FeE~]~$           
+797 : SAVESTATE:          52
+797 :                     l~!tfi(ti,ti)~i=i(i,i)~oi     l~FeE~]~$           
+798 :                     ~!tfi(ti,ti)~i=i(i,i)~oi~     ~FeE~]~$            
+799 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+800 : F->!ti~F            !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+800 : SAVESTATE:          53
+800 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     !ti~FeE~]~$         
+801 :                     tfi(ti,ti)~i=i(i,i)~oi~!t     ti~FeE~]~$          
+802 :                     fi(ti,ti)~i=i(i,i)~oi~!tf     i~FeE~]~$           
+803 : TS_NOK/NS_NORULECHAIN
+803 : RESSTATE            
+803 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+804 : F->!tfi(P)~F        !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+804 : SAVESTATE:          53
+804 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     !tfi(P)~FeE~]~$     
+805 :                     tfi(ti,ti)~i=i(i,i)~oi~!t     tfi(P)~FeE~]~$      
+806 :                     fi(ti,ti)~i=i(i,i)~oi~!tf     fi(P)~FeE~]~$       
+807 :                     i(ti,ti)~i=i(i,i)~oi~!tfi     i(P)~FeE~]~$        
+808 :                     (ti,ti)~i=i(i,i)~oi~!tfi(     (P)~FeE~]~$         
+809 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+810 : P->ti               ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+810 : SAVESTATE:          54
+810 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     ti)~FeE~]~$         
+811 :                     i,ti)~i=i(i,i)~oi~!tfi(ti     i)~FeE~]~$          
+812 :                     ,ti)~i=i(i,i)~oi~!tfi(ti,     )~FeE~]~$           
+813 : TS_NOK/NS_NORULECHAIN
+813 : RESSTATE            
+813 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+814 : P->ti,P             ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+814 : SAVESTATE:          54
+814 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     ti,P)~FeE~]~$       
+815 :                     i,ti)~i=i(i,i)~oi~!tfi(ti     i,P)~FeE~]~$        
+816 :                     ,ti)~i=i(i,i)~oi~!tfi(ti,     ,P)~FeE~]~$         
+817 :                     ti)~i=i(i,i)~oi~!tfi(ti,t     P)~FeE~]~$          
+818 : P->ti               ti)~i=i(i,i)~oi~!tfi(ti,t     P)~FeE~]~$          
+818 : SAVESTATE:          55
+818 :                     ti)~i=i(i,i)~oi~!tfi(ti,t     ti)~FeE~]~$         
+819 :                     i)~i=i(i,i)~oi~!tfi(ti,ti     i)~FeE~]~$          
+820 :                     )~i=i(i,i)~oi~!tfi(ti,ti)     )~FeE~]~$           
+821 :                     ~i=i(i,i)~oi~!tfi(ti,ti)~     ~FeE~]~$            
+822 :                     i=i(i,i)~oi~!tfi(ti,ti)~i     FeE~]~$             
+823 : F->i=E~             i=i(i,i)~oi~!tfi(ti,ti)~i     FeE~]~$             
+823 : SAVESTATE:          56
+823 :                     i=i(i,i)~oi~!tfi(ti,ti)~i     i=E~eE~]~$          
+824 :                     =i(i,i)~oi~!tfi(ti,ti)~i=     =E~eE~]~$           
+825 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+826 : E->i                i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+826 : SAVESTATE:          57
+826 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     i~eE~]~$            
+827 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     ~eE~]~$             
+828 : TS_NOK/NS_NORULECHAIN
+828 : RESSTATE            
+828 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+829 : E->i(W)             i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+829 : SAVESTATE:          57
+829 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     i(W)~eE~]~$         
+830 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     (W)~eE~]~$          
+831 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)~eE~]~$           
+832 : W->i                i,i)~oi~!tfi(ti,ti)~i=i(i     W)~eE~]~$           
+832 : SAVESTATE:          58
+832 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i)~eE~]~$           
+833 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     )~eE~]~$            
+834 : TS_NOK/NS_NORULECHAIN
+834 : RESSTATE            
+834 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)~eE~]~$           
+835 : W->i,W              i,i)~oi~!tfi(ti,ti)~i=i(i     W)~eE~]~$           
+835 : SAVESTATE:          58
+835 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i,W)~eE~]~$         
+836 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     ,W)~eE~]~$          
+837 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)~eE~]~$           
+838 : W->i                i)~oi~!tfi(ti,ti)~i=i(i,i     W)~eE~]~$           
+838 : SAVESTATE:          59
+838 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     i)~eE~]~$           
+839 :                     )~oi~!tfi(ti,ti)~i=i(i,i)     )~eE~]~$            
+840 :                     ~oi~!tfi(ti,ti)~i=i(i,i)~     ~eE~]~$             
+841 :                     oi~!tfi(ti,ti)~i=i(i,i)~o     eE~]~$              
+842 : TS_NOK/NS_NORULECHAIN
+842 : RESSTATE            
+842 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)~eE~]~$           
+843 : W->i,W              i)~oi~!tfi(ti,ti)~i=i(i,i     W)~eE~]~$           
+843 : SAVESTATE:          59
+843 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     i,W)~eE~]~$         
+844 :                     )~oi~!tfi(ti,ti)~i=i(i,i)     ,W)~eE~]~$          
+845 : TS_NOK/NS_NORULECHAIN
+845 : RESSTATE            
+845 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)~eE~]~$           
+846 : TNS_NORULECHAIN/NS_NORULE
+846 : RESSTATE            
+846 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)~eE~]~$           
+847 : TNS_NORULECHAIN/NS_NORULE
+847 : RESSTATE            
+847 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+848 : E->iO               i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+848 : SAVESTATE:          57
+848 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     iO~eE~]~$           
+849 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     O~eE~]~$            
+850 : TNS_NORULECHAIN/NS_NORULE
+850 : RESSTATE            
+850 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+851 : E->i(W)O            i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+851 : SAVESTATE:          57
+851 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     i(W)O~eE~]~$        
+852 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     (W)O~eE~]~$         
+853 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)O~eE~]~$          
+854 : W->i                i,i)~oi~!tfi(ti,ti)~i=i(i     W)O~eE~]~$          
+854 : SAVESTATE:          58
+854 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i)O~eE~]~$          
+855 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     )O~eE~]~$           
+856 : TS_NOK/NS_NORULECHAIN
+856 : RESSTATE            
+856 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)O~eE~]~$          
+857 : W->i,W              i,i)~oi~!tfi(ti,ti)~i=i(i     W)O~eE~]~$          
+857 : SAVESTATE:          58
+857 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i,W)O~eE~]~$        
+858 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     ,W)O~eE~]~$         
+859 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)O~eE~]~$          
+860 : W->i                i)~oi~!tfi(ti,ti)~i=i(i,i     W)O~eE~]~$          
+860 : SAVESTATE:          59
+860 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     i)O~eE~]~$          
+861 :                     )~oi~!tfi(ti,ti)~i=i(i,i)     )O~eE~]~$           
+862 :                     ~oi~!tfi(ti,ti)~i=i(i,i)~     O~eE~]~$            
+863 : TNS_NORULECHAIN/NS_NORULE
+863 : RESSTATE            
+863 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)O~eE~]~$          
+864 : W->i,W              i)~oi~!tfi(ti,ti)~i=i(i,i     W)O~eE~]~$          
+864 : SAVESTATE:          59
+864 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     i,W)O~eE~]~$        
+865 :                     )~oi~!tfi(ti,ti)~i=i(i,i)     ,W)O~eE~]~$         
+866 : TS_NOK/NS_NORULECHAIN
+866 : RESSTATE            
+866 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)O~eE~]~$          
+867 : TNS_NORULECHAIN/NS_NORULE
+867 : RESSTATE            
+867 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)O~eE~]~$          
+868 : TNS_NORULECHAIN/NS_NORULE
+868 : RESSTATE            
+868 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~eE~]~$            
+869 : TNS_NORULECHAIN/NS_NORULE
+869 : RESSTATE            
+869 :                     i=i(i,i)~oi~!tfi(ti,ti)~i     FeE~]~$             
+870 : F->i=E~F            i=i(i,i)~oi~!tfi(ti,ti)~i     FeE~]~$             
+870 : SAVESTATE:          56
+870 :                     i=i(i,i)~oi~!tfi(ti,ti)~i     i=E~FeE~]~$         
+871 :                     =i(i,i)~oi~!tfi(ti,ti)~i=     =E~FeE~]~$          
+872 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~FeE~]~$           
+873 : E->i                i(i,i)~oi~!tfi(ti,ti)~i=i     E~FeE~]~$           
+873 : SAVESTATE:          57
+873 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     i~FeE~]~$           
+874 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     ~FeE~]~$            
+875 : TS_NOK/NS_NORULECHAIN
+875 : RESSTATE            
+875 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     E~FeE~]~$           
+876 : E->i(W)             i(i,i)~oi~!tfi(ti,ti)~i=i     E~FeE~]~$           
+876 : SAVESTATE:          57
+876 :                     i(i,i)~oi~!tfi(ti,ti)~i=i     i(W)~FeE~]~$        
+877 :                     (i,i)~oi~!tfi(ti,ti)~i=i(     (W)~FeE~]~$         
+878 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)~FeE~]~$          
+879 : W->i                i,i)~oi~!tfi(ti,ti)~i=i(i     W)~FeE~]~$          
+879 : SAVESTATE:          58
+879 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i)~FeE~]~$          
+880 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     )~FeE~]~$           
+881 : TS_NOK/NS_NORULECHAIN
+881 : RESSTATE            
+881 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     W)~FeE~]~$          
+882 : W->i,W              i,i)~oi~!tfi(ti,ti)~i=i(i     W)~FeE~]~$          
+882 : SAVESTATE:          58
+882 :                     i,i)~oi~!tfi(ti,ti)~i=i(i     i,W)~FeE~]~$        
+883 :                     ,i)~oi~!tfi(ti,ti)~i=i(i,     ,W)~FeE~]~$         
+884 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     W)~FeE~]~$          
+885 : W->i                i)~oi~!tfi(ti,ti)~i=i(i,i     W)~FeE~]~$          
+885 : SAVESTATE:          59
+885 :                     i)~oi~!tfi(ti,ti)~i=i(i,i     i)~FeE~]~$          
+886 :                     )~oi~!tfi(ti,ti)~i=i(i,i)     )~FeE~]~$           
+887 :                     ~oi~!tfi(ti,ti)~i=i(i,i)~     ~FeE~]~$            
+888 :                     oi~!tfi(ti,ti)~i=i(i,i)~o     FeE~]~$             
+889 : F->oi~F             oi~!tfi(ti,ti)~i=i(i,i)~o     FeE~]~$             
+889 : SAVESTATE:          60
+889 :                     oi~!tfi(ti,ti)~i=i(i,i)~o     oi~FeE~]~$          
+890 :                     i~!tfi(ti,ti)~i=i(i,i)~oi     i~FeE~]~$           
+891 :                     ~!tfi(ti,ti)~i=i(i,i)~oi~     ~FeE~]~$            
+892 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+893 : F->!ti~F            !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+893 : SAVESTATE:          61
+893 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     !ti~FeE~]~$         
+894 :                     tfi(ti,ti)~i=i(i,i)~oi~!t     ti~FeE~]~$          
+895 :                     fi(ti,ti)~i=i(i,i)~oi~!tf     i~FeE~]~$           
+896 : TS_NOK/NS_NORULECHAIN
+896 : RESSTATE            
+896 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+897 : F->!tfi(P)~F        !tfi(ti,ti)~i=i(i,i)~oi~!     FeE~]~$             
+897 : SAVESTATE:          61
+897 :                     !tfi(ti,ti)~i=i(i,i)~oi~!     !tfi(P)~FeE~]~$     
+898 :                     tfi(ti,ti)~i=i(i,i)~oi~!t     tfi(P)~FeE~]~$      
+899 :                     fi(ti,ti)~i=i(i,i)~oi~!tf     fi(P)~FeE~]~$       
+900 :                     i(ti,ti)~i=i(i,i)~oi~!tfi     i(P)~FeE~]~$        
+901 :                     (ti,ti)~i=i(i,i)~oi~!tfi(     (P)~FeE~]~$         
+902 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+903 : P->ti               ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+903 : SAVESTATE:          62
+903 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     ti)~FeE~]~$         
+904 :                     i,ti)~i=i(i,i)~oi~!tfi(ti     i)~FeE~]~$          
+905 :                     ,ti)~i=i(i,i)~oi~!tfi(ti)     )~FeE~]~$           
+906 : TS_NOK/NS_NORULECHAIN
+906 : RESSTATE            
+906 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+907 : P->ti,P             ti,ti)~i=i(i,i)~oi~!tfi(t     P)~FeE~]~$          
+907 : SAVESTATE:          62
+907 :                     ti,ti)~i=i(i,i)~oi~!tfi(t     ti,P)~FeE~]~$       
+908 :                     i,ti)~i=i(i,i)~oi~!tfi(ti     i,P)~FeE~]~$        
+909 :                     ,ti)~i=i(i,i)~oi~!tfi(ti)     ,P)~FeE~]~$         
+910 :                     ti)~i=i(i,i)~oi~!tfi(ti)~     P)~FeE~]~$          
+911 : P->ti               ti)~i=i(i,i)~oi~!tfi(ti)~     P)~FeE~]~$          
+911 : SAVESTATE:          63
+911 :                     ti)~i=i(i,i)~oi~!tfi(ti)~     ti)~FeE~]~$         
+912 :                     i)~i=i(i,i)~oi~!tfi(ti)~i     i)~FeE~]~$          
+913 :                     )~i=i(i,i)~oi~!tfi(ti)~i=     )~FeE~]~$           
+914 :                     ~i=i(i,i)~oi~!tfi(ti)~i=i     ~FeE~]~$            
+915 :                     i=i(i,i)~oi~!tfi(ti)~i=i(     FeE~]~$             
+916 : F->i=E~             i=i(i,i)~oi~!tfi(ti)~i=i(     FeE~]~$             
+916 : SAVESTATE:          64
+916 :                     i=i(i,i)~oi~!tfi(ti)~i=i(     i=E~eE~]~$          
+917 :                     =i(i,i)~oi~!tfi(ti)~i=i(i     =E~eE~]~$           
+918 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+919 : E->i                i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+919 : SAVESTATE:          65
+919 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     i~eE~]~$            
+920 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     ~eE~]~$             
+921 : TS_NOK/NS_NORULECHAIN
+921 : RESSTATE            
+921 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+922 : E->i(W)             i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+922 : SAVESTATE:          65
+922 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     i(W)~eE~]~$         
+923 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     (W)~eE~]~$          
+924 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)~eE~]~$           
+925 : W->i                i,i)~oi~!tfi(ti)~i=i(i)~o     W)~eE~]~$           
+925 : SAVESTATE:          66
+925 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i)~eE~]~$           
+926 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     )~eE~]~$            
+927 : TS_NOK/NS_NORULECHAIN
+927 : RESSTATE            
+927 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)~eE~]~$           
+928 : W->i,W              i,i)~oi~!tfi(ti)~i=i(i)~o     W)~eE~]~$           
+928 : SAVESTATE:          66
+928 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i,W)~eE~]~$         
+929 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     ,W)~eE~]~$          
+930 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)~eE~]~$           
+931 : W->i                i)~oi~!tfi(ti)~i=i(i)~oi~     W)~eE~]~$           
+931 : SAVESTATE:          67
+931 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     i)~eE~]~$           
+932 :                     )~oi~!tfi(ti)~i=i(i)~oi~e     )~eE~]~$            
+933 :                     ~oi~!tfi(ti)~i=i(i)~oi~el     ~eE~]~$             
+934 :                     oi~!tfi(ti)~i=i(i)~oi~el~     eE~]~$              
+935 : TS_NOK/NS_NORULECHAIN
+935 : RESSTATE            
+935 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)~eE~]~$           
+936 : W->i,W              i)~oi~!tfi(ti)~i=i(i)~oi~     W)~eE~]~$           
+936 : SAVESTATE:          67
+936 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     i,W)~eE~]~$         
+937 :                     )~oi~!tfi(ti)~i=i(i)~oi~e     ,W)~eE~]~$          
+938 : TS_NOK/NS_NORULECHAIN
+938 : RESSTATE            
+938 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)~eE~]~$           
+939 : TNS_NORULECHAIN/NS_NORULE
+939 : RESSTATE            
+939 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)~eE~]~$           
+940 : TNS_NORULECHAIN/NS_NORULE
+940 : RESSTATE            
+940 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+941 : E->iO               i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+941 : SAVESTATE:          65
+941 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     iO~eE~]~$           
+942 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     O~eE~]~$            
+943 : TNS_NORULECHAIN/NS_NORULE
+943 : RESSTATE            
+943 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+944 : E->i(W)O            i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+944 : SAVESTATE:          65
+944 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     i(W)O~eE~]~$        
+945 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     (W)O~eE~]~$         
+946 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)O~eE~]~$          
+947 : W->i                i,i)~oi~!tfi(ti)~i=i(i)~o     W)O~eE~]~$          
+947 : SAVESTATE:          66
+947 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i)O~eE~]~$          
+948 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     )O~eE~]~$           
+949 : TS_NOK/NS_NORULECHAIN
+949 : RESSTATE            
+949 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)O~eE~]~$          
+950 : W->i,W              i,i)~oi~!tfi(ti)~i=i(i)~o     W)O~eE~]~$          
+950 : SAVESTATE:          66
+950 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i,W)O~eE~]~$        
+951 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     ,W)O~eE~]~$         
+952 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)O~eE~]~$          
+953 : W->i                i)~oi~!tfi(ti)~i=i(i)~oi~     W)O~eE~]~$          
+953 : SAVESTATE:          67
+953 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     i)O~eE~]~$          
+954 :                     )~oi~!tfi(ti)~i=i(i)~oi~e     )O~eE~]~$           
+955 :                     ~oi~!tfi(ti)~i=i(i)~oi~el     O~eE~]~$            
+956 : TNS_NORULECHAIN/NS_NORULE
+956 : RESSTATE            
+956 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)O~eE~]~$          
+957 : W->i,W              i)~oi~!tfi(ti)~i=i(i)~oi~     W)O~eE~]~$          
+957 : SAVESTATE:          67
+957 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     i,W)O~eE~]~$        
+958 :                     )~oi~!tfi(ti)~i=i(i)~oi~e     ,W)O~eE~]~$         
+959 : TS_NOK/NS_NORULECHAIN
+959 : RESSTATE            
+959 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)O~eE~]~$          
+960 : TNS_NORULECHAIN/NS_NORULE
+960 : RESSTATE            
+960 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)O~eE~]~$          
+961 : TNS_NORULECHAIN/NS_NORULE
+961 : RESSTATE            
+961 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~eE~]~$            
+962 : TNS_NORULECHAIN/NS_NORULE
+962 : RESSTATE            
+962 :                     i=i(i,i)~oi~!tfi(ti)~i=i(     FeE~]~$             
+963 : F->i=E~F            i=i(i,i)~oi~!tfi(ti)~i=i(     FeE~]~$             
+963 : SAVESTATE:          64
+963 :                     i=i(i,i)~oi~!tfi(ti)~i=i(     i=E~FeE~]~$         
+964 :                     =i(i,i)~oi~!tfi(ti)~i=i(i     =E~FeE~]~$          
+965 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~FeE~]~$           
+966 : E->i                i(i,i)~oi~!tfi(ti)~i=i(i)     E~FeE~]~$           
+966 : SAVESTATE:          65
+966 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     i~FeE~]~$           
+967 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     ~FeE~]~$            
+968 : TS_NOK/NS_NORULECHAIN
+968 : RESSTATE            
+968 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     E~FeE~]~$           
+969 : E->i(W)             i(i,i)~oi~!tfi(ti)~i=i(i)     E~FeE~]~$           
+969 : SAVESTATE:          65
+969 :                     i(i,i)~oi~!tfi(ti)~i=i(i)     i(W)~FeE~]~$        
+970 :                     (i,i)~oi~!tfi(ti)~i=i(i)~     (W)~FeE~]~$         
+971 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)~FeE~]~$          
+972 : W->i                i,i)~oi~!tfi(ti)~i=i(i)~o     W)~FeE~]~$          
+972 : SAVESTATE:          66
+972 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i)~FeE~]~$          
+973 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     )~FeE~]~$           
+974 : TS_NOK/NS_NORULECHAIN
+974 : RESSTATE            
+974 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     W)~FeE~]~$          
+975 : W->i,W              i,i)~oi~!tfi(ti)~i=i(i)~o     W)~FeE~]~$          
+975 : SAVESTATE:          66
+975 :                     i,i)~oi~!tfi(ti)~i=i(i)~o     i,W)~FeE~]~$        
+976 :                     ,i)~oi~!tfi(ti)~i=i(i)~oi     ,W)~FeE~]~$         
+977 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     W)~FeE~]~$          
+978 : W->i                i)~oi~!tfi(ti)~i=i(i)~oi~     W)~FeE~]~$          
+978 : SAVESTATE:          67
+978 :                     i)~oi~!tfi(ti)~i=i(i)~oi~     i)~FeE~]~$          
+979 :                     )~oi~!tfi(ti)~i=i(i)~oi~e     )~FeE~]~$           
+980 :                     ~oi~!tfi(ti)~i=i(i)~oi~el     ~FeE~]~$            
+981 :                     oi~!tfi(ti)~i=i(i)~oi~el~     FeE~]~$             
+982 : F->oi~F             oi~!tfi(ti)~i=i(i)~oi~el~     FeE~]~$             
+982 : SAVESTATE:          68
+982 :                     oi~!tfi(ti)~i=i(i)~oi~el~     oi~FeE~]~$          
+983 :                     i~!tfi(ti)~i=i(i)~oi~el~]     i~FeE~]~$           
+984 :                     ~!tfi(ti)~i=i(i)~oi~el~]      ~FeE~]~$            
+985 :                     !tfi(ti)~i=i(i)~oi~el~]       FeE~]~$             
+986 : F->!ti~F            !tfi(ti)~i=i(i)~oi~el~]       FeE~]~$             
+986 : SAVESTATE:          69
+986 :                     !tfi(ti)~i=i(i)~oi~el~]       !ti~FeE~]~$         
+987 :                     tfi(ti)~i=i(i)~oi~el~]        ti~FeE~]~$          
+988 :                     fi(ti)~i=i(i)~oi~el~]         i~FeE~]~$           
+989 : TS_NOK/NS_NORULECHAIN
+989 : RESSTATE            
+989 :                     !tfi(ti)~i=i(i)~oi~el~]       FeE~]~$             
+990 : F->!tfi(P)~F        !tfi(ti)~i=i(i)~oi~el~]       FeE~]~$             
+990 : SAVESTATE:          69
+990 :                     !tfi(ti)~i=i(i)~oi~el~]       !tfi(P)~FeE~]~$     
+991 :                     tfi(ti)~i=i(i)~oi~el~]        tfi(P)~FeE~]~$      
+992 :                     fi(ti)~i=i(i)~oi~el~]         fi(P)~FeE~]~$       
+993 :                     i(ti)~i=i(i)~oi~el~]          i(P)~FeE~]~$        
+994 :                     (ti)~i=i(i)~oi~el~]           (P)~FeE~]~$         
+995 :                     ti)~i=i(i)~oi~el~]            P)~FeE~]~$          
+996 : P->ti               ti)~i=i(i)~oi~el~]            P)~FeE~]~$          
+996 : SAVESTATE:          70
+996 :                     ti)~i=i(i)~oi~el~]            ti)~FeE~]~$         
+997 :                     i)~i=i(i)~oi~el~]             i)~FeE~]~$          
+998 :                     )~i=i(i)~oi~el~]              )~FeE~]~$           
+999 :                     ~i=i(i)~oi~el~]               ~FeE~]~$            
+1000:                     i=i(i)~oi~el~]                FeE~]~$             
+1001: F->i=E~             i=i(i)~oi~el~]                FeE~]~$             
+1001: SAVESTATE:          71
+1001:                     i=i(i)~oi~el~]                i=E~eE~]~$          
+1002:                     =i(i)~oi~el~]                 =E~eE~]~$           
+1003:                     i(i)~oi~el~]                  E~eE~]~$            
+1004: E->i                i(i)~oi~el~]                  E~eE~]~$            
+1004: SAVESTATE:          72
+1004:                     i(i)~oi~el~]                  i~eE~]~$            
+1005:                     (i)~oi~el~]                   ~eE~]~$             
+1006: TS_NOK/NS_NORULECHAIN
+1006: RESSTATE            
+1006:                     i(i)~oi~el~]                  E~eE~]~$            
+1007: E->i(W)             i(i)~oi~el~]                  E~eE~]~$            
+1007: SAVESTATE:          72
+1007:                     i(i)~oi~el~]                  i(W)~eE~]~$         
+1008:                     (i)~oi~el~]                   (W)~eE~]~$          
+1009:                     i)~oi~el~]                    W)~eE~]~$           
+1010: W->i                i)~oi~el~]                    W)~eE~]~$           
+1010: SAVESTATE:          73
+1010:                     i)~oi~el~]                    i)~eE~]~$           
+1011:                     )~oi~el~]                     )~eE~]~$            
+1012:                     ~oi~el~]                      ~eE~]~$             
+1013:                     oi~el~]                       eE~]~$              
+1014: TS_NOK/NS_NORULECHAIN
+1014: RESSTATE            
+1014:                     i)~oi~el~]                    W)~eE~]~$           
+1015: W->i,W              i)~oi~el~]                    W)~eE~]~$           
+1015: SAVESTATE:          73
+1015:                     i)~oi~el~]                    i,W)~eE~]~$         
+1016:                     )~oi~el~]                     ,W)~eE~]~$          
+1017: TS_NOK/NS_NORULECHAIN
+1017: RESSTATE            
+1017:                     i)~oi~el~]                    W)~eE~]~$           
+1018: TNS_NORULECHAIN/NS_NORULE
+1018: RESSTATE            
+1018:                     i(i)~oi~el~]                  E~eE~]~$            
+1019: E->iO               i(i)~oi~el~]                  E~eE~]~$            
+1019: SAVESTATE:          72
+1019:                     i(i)~oi~el~]                  iO~eE~]~$           
+1020:                     (i)~oi~el~]                   O~eE~]~$            
+1021: TNS_NORULECHAIN/NS_NORULE
+1021: RESSTATE            
+1021:                     i(i)~oi~el~]                  E~eE~]~$            
+1022: E->i(W)O            i(i)~oi~el~]                  E~eE~]~$            
+1022: SAVESTATE:          72
+1022:                     i(i)~oi~el~]                  i(W)O~eE~]~$        
+1023:                     (i)~oi~el~]                   (W)O~eE~]~$         
+1024:                     i)~oi~el~]                    W)O~eE~]~$          
+1025: W->i                i)~oi~el~]                    W)O~eE~]~$          
+1025: SAVESTATE:          73
+1025:                     i)~oi~el~]                    i)O~eE~]~$          
+1026:                     )~oi~el~]                     )O~eE~]~$           
+1027:                     ~oi~el~]                      O~eE~]~$            
+1028: TNS_NORULECHAIN/NS_NORULE
+1028: RESSTATE            
+1028:                     i)~oi~el~]                    W)O~eE~]~$          
+1029: W->i,W              i)~oi~el~]                    W)O~eE~]~$          
+1029: SAVESTATE:          73
+1029:                     i)~oi~el~]                    i,W)O~eE~]~$        
+1030:                     )~oi~el~]                     ,W)O~eE~]~$         
+1031: TS_NOK/NS_NORULECHAIN
+1031: RESSTATE            
+1031:                     i)~oi~el~]                    W)O~eE~]~$          
+1032: TNS_NORULECHAIN/NS_NORULE
+1032: RESSTATE            
+1032:                     i(i)~oi~el~]                  E~eE~]~$            
+1033: TNS_NORULECHAIN/NS_NORULE
+1033: RESSTATE            
+1033:                     i=i(i)~oi~el~]                FeE~]~$             
+1034: F->i=E~F            i=i(i)~oi~el~]                FeE~]~$             
+1034: SAVESTATE:          71
+1034:                     i=i(i)~oi~el~]                i=E~FeE~]~$         
+1035:                     =i(i)~oi~el~]                 =E~FeE~]~$          
+1036:                     i(i)~oi~el~]                  E~FeE~]~$           
+1037: E->i                i(i)~oi~el~]                  E~FeE~]~$           
+1037: SAVESTATE:          72
+1037:                     i(i)~oi~el~]                  i~FeE~]~$           
+1038:                     (i)~oi~el~]                   ~FeE~]~$            
+1039: TS_NOK/NS_NORULECHAIN
+1039: RESSTATE            
+1039:                     i(i)~oi~el~]                  E~FeE~]~$           
+1040: E->i(W)             i(i)~oi~el~]                  E~FeE~]~$           
+1040: SAVESTATE:          72
+1040:                     i(i)~oi~el~]                  i(W)~FeE~]~$        
+1041:                     (i)~oi~el~]                   (W)~FeE~]~$         
+1042:                     i)~oi~el~]                    W)~FeE~]~$          
+1043: W->i                i)~oi~el~]                    W)~FeE~]~$          
+1043: SAVESTATE:          73
+1043:                     i)~oi~el~]                    i)~FeE~]~$          
+1044:                     )~oi~el~]                     )~FeE~]~$           
+1045:                     ~oi~el~]                      ~FeE~]~$            
+1046:                     oi~el~]                       FeE~]~$             
+1047: F->oi~F             oi~el~]                       FeE~]~$             
+1047: SAVESTATE:          74
+1047:                     oi~el~]                       oi~FeE~]~$          
+1048:                     i~el~]                        i~FeE~]~$           
+1049:                     ~el~]                         ~FeE~]~$            
+1050:                     el~]                          FeE~]~$             
+1051: TNS_NORULECHAIN/NS_NORULE
+1051: RESSTATE            
+1051:                     oi~el~]                       FeE~]~$             
+1052: F->ol~F             oi~el~]                       FeE~]~$             
+1052: SAVESTATE:          74
+1052:                     oi~el~]                       ol~FeE~]~$          
+1053:                     i~el~]                        l~FeE~]~$           
+1054: TS_NOK/NS_NORULECHAIN
+1054: RESSTATE            
+1054:                     oi~el~]                       FeE~]~$             
+1055: F->oE~F             oi~el~]                       FeE~]~$             
+1055: SAVESTATE:          74
+1055:                     oi~el~]                       oE~FeE~]~$          
+1056:                     i~el~]                        E~FeE~]~$           
+1057: E->i                i~el~]                        E~FeE~]~$           
+1057: SAVESTATE:          75
+1057:                     i~el~]                        i~FeE~]~$           
+1058:                     ~el~]                         ~FeE~]~$            
+1059:                     el~]                          FeE~]~$             
+1060: TNS_NORULECHAIN/NS_NORULE
+1060: RESSTATE            
+1060:                     i~el~]                        E~FeE~]~$           
+1061: E->i(W)             i~el~]                        E~FeE~]~$           
+1061: SAVESTATE:          75
+1061:                     i~el~]                        i(W)~FeE~]~$        
+1062:                     ~el~]                         (W)~FeE~]~$         
+1063: TS_NOK/NS_NORULECHAIN
+1063: RESSTATE            
+1063:                     i~el~]                        E~FeE~]~$           
+1064: E->iO               i~el~]                        E~FeE~]~$           
+1064: SAVESTATE:          75
+1064:                     i~el~]                        iO~FeE~]~$          
+1065:                     ~el~]                         O~FeE~]~$           
+1066: TNS_NORULECHAIN/NS_NORULE
+1066: RESSTATE            
+1066:                     i~el~]                        E~FeE~]~$           
+1067: E->i(W)O            i~el~]                        E~FeE~]~$           
+1067: SAVESTATE:          75
+1067:                     i~el~]                        i(W)O~FeE~]~$       
+1068:                     ~el~]                         (W)O~FeE~]~$        
+1069: TS_NOK/NS_NORULECHAIN
+1069: RESSTATE            
+1069:                     i~el~]                        E~FeE~]~$           
+1070: TNS_NORULECHAIN/NS_NORULE
+1070: RESSTATE            
+1070:                     oi~el~]                       FeE~]~$             
+1071: F->oE~              oi~el~]                       FeE~]~$             
+1071: SAVESTATE:          74
+1071:                     oi~el~]                       oE~eE~]~$           
+1072:                     i~el~]                        E~eE~]~$            
+1073: E->i                i~el~]                        E~eE~]~$            
+1073: SAVESTATE:          75
+1073:                     i~el~]                        i~eE~]~$            
+1074:                     ~el~]                         ~eE~]~$             
+1075:                     el~]                          eE~]~$              
+1076:                     l~]                           E~]~$               
+1077: E->l                l~]                           E~]~$               
+1077: SAVESTATE:          76
+1077:                     l~]                           l~]~$               
+1078:                     ~]                            ~]~$                
+1079:                     ]                             ]~$                 
+1080:                                                   ~$                  
+1081: LENTA_END           
+1082: ------>LENTA_END    
+0   : всего строк 204, синтаксический анализ выполнен без ошибок
+178
+
+0   : S->L~tfi(P)[FeE~]~S 
+6   : P->ti,P             
+9   : P->ti               
+13  : F->!ti~F            
+17  : F->i=E~             
+19  : E->iO               
+20  : O->vE               
+21  : E->i                
+24  : E->i                
+28  : S->m[FeE~]~         
+30  : F->!ti~F            
+34  : F->!ti~F            
+38  : F->!ti~F            
+42  : F->!ti~F            
+46  : F->!ti~F            
+50  : F->i=E~F            
+52  : E->(E)O             
+53  : E->i(W)O            
+55  : W->l,W              
+57  : W->l                
+59  : O->vE               
+60  : E->lO               
+61  : O->vE               
+62  : E->l                
+64  : O->vE               
+65  : E->l                
+67  : F->i=E~F            
+69  : E->i(W)             
+71  : W->l,W              
+73  : W->l                
+76  : F->ol~F             
+79  : F->oi~F             
+82  : F->i=E~F            
+84  : E->l                
+86  : F->i=E~F            
+88  : E->l                
+90  : F->!ti~F            
+94  : F->!tfi(P)~F        
+99  : P->ti,P             
+102 : P->ti               
+106 : F->i=E~F            
+108 : E->i(W)             
+110 : W->i,W              
+112 : W->i                
+115 : F->oi~F             
+118 : F->i=E~F            
+120 : E->l                
+122 : F->oi~F             
+125 : F->i=E~F            
+127 : E->l                
+129 : F->i=E~F            
+131 : E->l                
+133 : F->!tfi(P)~F        
+138 : P->ti,P             
+141 : P->ti               
+145 : F->i=E~F            
+147 : E->i(W)             
+149 : W->i,W              
+151 : W->i                
+154 : F->oi~F             
+157 : F->!tfi(P)~F        
+162 : P->ti,P             
+165 : P->ti               
+169 : F->i=E~F            
+171 : E->i(W)             
+173 : W->i,W              
+175 : W->i                
+178 : F->oi~F             
+181 : F->!tfi(P)~F        
+186 : P->ti               
+190 : F->i=E~F            
+192 : E->i(W)             
+194 : W->i                
+197 : F->oE~              
+198 : E->i                
+201 : E->l                
+------------------------------ Таблица лексем --------------------------------
+01 
+02 L~
+03 tfi[1](ti[2],ti[3])
+04 [
+05 !ti[4]~
+06 i[4]=i[2]i[3]v[5]~
+07 ei[4]~
+08 ]~
+12 m
+13 [
+14 !ti[6]~
+15 !ti[7]~
+16 !ti[8]~
+17 !ti[9]~
+18 !ti[10]~
+19 i[8]=i[1]l[11]l[12]@2l[14]v[13]l[16]v[15]l[14]v[17]###~
+20 i[6]=i[1]l[11]l[12]@2#~
+21 ol[18]~
+22 oi[8]~
+23 i[9]=l[19]~
+24 i[10]=l[20]~
+25 !ti[21]~
+26 !tfi[22](ti[23],ti[24])~
+27 i[21]=i[22]i[9]i[10]@2#~
+28 oi[21]~
+29 i[9]=l[25]~
+30 oi[9]~
+31 i[6]=l[26]~
+32 i[7]=l[27]~
+33 !tfi[28](ti[29],ti[30])~
+34 i[8]=i[28]i[6]i[7]@2#~
+35 oi[8]~
+36 !tfi[31](ti[32],ti[33])~
+37 i[8]=i[31]i[6]i[7]@2#~
+38 oi[8]~
+39 !tfi[34](ti[35])~
+40 i[6]=i[34]i[9]@1~
+41 oi[6]~
+42 el[36]~
+43 ]

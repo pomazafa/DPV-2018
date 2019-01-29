@@ -1,0 +1,44 @@
+< Исходный код на языке DPV-2018 >
+ Library ~ 
+ integer function sq ( integer x, integer y )   
+[ 
+ !  integer z ~
+ z = x * y ~ 
+ exit z ~  
+] ~ 
+
+< big
+comment > 
+
+ main      <главная функция >
+[
+ ! integer n1 ~
+ ! integer n2 ~
+ ! integer n3 ~
+ ! string str1 ~
+ ! string str2 ~
+ n3 = ( sq (3 , 5 ) + 2 - 4) / 2 ~
+ n1 = sq (3 , 5 ) ~
+ out ' (sq(3, 5) + 2 - 4) / 2 ' ~
+ out n3 ~
+ str1 = 'a' ~
+ str2 = 'gav' ~
+ !  is c  ~
+ !  is function substr (string a , string b) ~
+ c = substr(str1, str2) ~
+ out c ~
+ str1 = 'нок и нод 10 и 12, длина этой строки' ~
+ out str1 ~
+ n1 = 10 ~
+ n2 = 12 ~
+ ! integer function getnod ( integer k1, integer k2) ~
+ n3 = getnod (n1, n2) ~
+ out n3 ~
+ ! integer function getnok ( integer k1, integer k2) ~
+ n3 = getnok (n1, n2) ~
+ out n3 ~
+ ! integer function strlen ( string str) ~
+ n1 = strlen(str1) ~
+ out n1 ~
+ exit 0 ~
+] ~
